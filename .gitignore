@@ -1,0 +1,61 @@
+# Copyrighted files
+/libraries/
+/versions/
+/mods/*.jar
+/mods/*.dis
+/*.jar
+/.fabric/
+
+# Big files
+*.zip
+*.7z
+
+# Uncessary logs
+/config/spark/
+/config/worldedit/.archive-unpack/
+/crash-reports/
+/dumps/
+/local/
+/logs/
+/modernfix/
+/.mixin.out/
+*.bak
+minecraft.pid
+
+# World data
+/patchouli_books/
+/woot/
+/world/advancements/
+/world/backpacks/
+/world/data/
+/world/datapacks/
+/world/deaths/
+/world/debug/
+/world/**/data/
+/world/**/entities/
+/world/**/poi/
+/world/**/region/
+/world/dimensions/
+/world/entities/
+/world/ftbchunks/
+/world/ftbessentials/
+/world/ftbquests/
+/world/ftbteams/
+/world/playerdata/
+/world/poi/
+/world/region/
+/world/stats/
+/world/tombstone/
+/world/icon.png
+/world/kubejs_persistent_data.nbt
+/world/level.*
+/world/session.lock
+/world/touchfile
+/world/gravestone_data.json
+/world/camerapture/
+/world/xaeromap.txt
+/world/player-mod-data/
+
+# Sensitive data
+/config/serverrestart/discord.json
+

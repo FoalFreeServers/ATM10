@@ -1,0 +1,32 @@
+[
+	{
+        "mob": "minecraft:zombie",
+        "mincount": 15,
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:bat",
+        "mincount": 5,
+        "result": "deny"
+      },
+      {
+        "mob": "minecraft:skeleton",
+        "mincount": 15,
+        "result": "deny"
+      },
+		{
+        "mob": "minecraft:creeper",
+        "mincount": 15,
+        "result": "deny"
+      },
+		{
+        "mob": "minecraft:spider",
+        "mincount": 15,
+        "result": "deny"
+      },
+		{
+        "mob": "minecraft:enderman",
+        "mincount": 15,
+        "result": "deny"
+      }
+]
