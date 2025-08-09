@@ -1,3 +1,6 @@
+term.clear()
+term.setCursorPos(0,0)
+
 -- Reactor Connections --
 R1 = peripheral.find("fissionReactorLogicAdapter")
 R2 = peripheral.find("fissionReactorPort")
@@ -6,7 +9,7 @@ T1 = peripheral.find("turbineValve")
 -- Overflow Buffer Connection (Induction Matrix) --
 P1 = peripheral.find("inductionPort")
 
-M1 = peripheral.find("monitor_0")
+M1 = peripheral.find("monitor")
 
 sleep(0.25)
 assert(R1,"Reactor Logic Missing")
@@ -64,14 +67,17 @@ while R1.isFormed() do
     local TProd = T1.getProductionRate()
     
     local OFBEnergy = P1.getEnergy()
-    local OFBCharge = P1.getEnergyFilledPercentage()*100
+    local OFBCharge = math.floor(P1.getEnergyFilledPercentage()*100)
     local OFBMax    = P1.getMaxEnergy()
     local OFBTime   = (math.floor((OFBMax - OFBEnergy) / TProd)) 
     local OFBStat   = OFBTime
     
-    local monitor = peripheral.find("monitor_0")
+    local monitor = peripheral.find("monitor")
+    monitor.setTextScale(0.5)
     
     if not Status
+        then ROnOff = "Reactor Idle"
+    elseif ActBurn == 0
         then ROnOff = "Reactor Idle"
     else ROnOff = "Reactor Working"
     end
@@ -107,12 +113,19 @@ print("Temperature : "..math.floor(KtC(Temp)).."C")
 print("Fuel Level  : "..math.floor(Fuel*100).."%")
 print("Burn Rate   : "..Burn.."mB/t")
 print("Processing  : "..ActBurn.."/"..MaxBurn.."mB/t")
+ 
+term.setTextColor(colors.orange)
+print("-----------------------------------------")
+term.setTextColor(colors.red)
+print("Hot Coolant in Vessel    : "..(math.floor(HotSod*100*4.5)*0.01).."kB")    
+term.setTextColor(colors.lightBlue)
+print("Coolant Supply in Vessel : "..(math.floor(CoolSod*100*4.5)*0.01).."/4.5kB") 
+          
+term.setTextColor(colors.orange)
+print("-----------------------------------------")
+term.setTextColor(colors.white)
     
-    term.setTextColor(colors.orange)
-    print("-----------------------------------------")
-    term.setTextColor(colors.white)
-    
-    print("Current Turbine Output   : "..(math.floor((tKFE(TProd))*100)*0.01).."kFE/t")
+print("Current Turbine Output   : "..(math.floor((tKFE(TProd))*100)*0.01).."kFE/t")
     
 term.setTextColor(colors.orange)
 print("-----------------------------------------")
@@ -140,7 +153,7 @@ print("Time to OFB Capacity     : ")
         term.setTextColor(colors.red)
     end
 
-term.setCursorPos(28,13)
+term.setCursorPos(28,16)
 print(OFBStat)
 
 sleep(0.25)
