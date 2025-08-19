@@ -1,0 +1,334 @@
+-- SpaceOS --
+-- Config || Changeing these colors require a Restart
+local bg = colors.yellow
+local tcolor = colors.lightGray
+-- *** MAIN ENGINE *** *** MAIN ENGINE *** *** MAIN ENGINE *** --
+-- FUNCTIONS --
+local w,h = term.getSize()
+function valid(value,expected) if type(value) == expected then return true else return false end end
+function clr() term.clear() end
+function cp(x,y) if not valid(x,"number") then return error("Expected x to be a number, got "..type(x)) end if not valid(y,"number") then return error("Expected y to be a number, got "..type(y)) end term.setCursorPos(x,y) end
+function setText(col) if not valid(col,"string") then return error("Expected col to be a string, got "..type(x)) else return term.setTextColor(colors[col]) end end
+function setBack(col) if not valid(col,"string") then return error("Expected col to be a string, got "..type(x)) else return term.setBackgroundColor(colors[col]) end end
+function notnil(vari) if vari == nil then return false else return true end end
+function lt(tab) if not valid(tab,"table") then return error("Expected tab to be a table, got "..type(tab)) end local lt = 0 for i=1, #tab do if string.len(tab[i]) > lt then lt = string.len(tab[i]) end end return lt end
+function pullEvents(...) -- for pulling multiple events at a time, first event get priority
+	local args = {...}
+	--if #args == 0 then return os.pullEvent() end
+	while true do
+		sleep(.000000001)
+		event, arg1, arg2, arg3, arg4 = os.pullEvent()
+		for i=1, #args do
+			if args[i] == event then
+				return event, arg1, arg2, arg3, arg4
+			end
+		end
+	end
+end
+-- FUNCTIONS --
+-- COLLISION --
+col = {}
+
+function printCentered(Text, Line)
+    local x, y = term.getSize()
+    x = x/2 - #Text/2
+    term.setCursorPos(x, Line)
+    if Color then 
+        col.set(Color, BkgColor)
+    end
+    term.write(Text) 
+    return true  
+end
+
+function debug()	
+	setBack("blue")
+    clr()
+	setText("orange")
+	printCentered("Debugging Editor ", 5)
+	textutils.slowPrint(". . .", 3)
+	sleep(0.1)
+	shell.run("edit /.os/.gui")
+	shell.run("/.os/.gui")
+end
+
+function reload()
+	shell.run("/.os/.gui")
+end
+
+function createCol(name,x,y,x2,y2,status)
+	name = name or "name_"..#col table.insert(col,{}) status = status or true
+	col[#col].x, col[#col].y, col[#col].x2, col[#col].y2, col[#col].name, col[#col].status = x, y, x2, y2, name, status
+end
+function colExists(name)
+	for i=1, #col do
+		if col[i].name == name then return i end
+	end
+	return false
+end
+function removeCol(name)
+	if colExists(name) ~= false then table.remove(col, colExists(name)) end
+end
+function moveCol(name,newx,newy)
+	if not colExists(name) then return error("Collision does not exists") end
+	name = colExists(name)
+	col[name].x2,col[name].y2 = col[name].x2+newx-col[name].x, col[name].y2+newy-col[name].y
+	col[name].x,col[name].y = newx,newy
+end
+function drawCol(name, color)
+	if not notnil(color) then if col[name].status then color = colors.green else color = colors.red end end
+	for i=1, #col do
+		if name == col[i].name then
+			return paintutils.drawFilledBox(col[i].x,col[i].y,col[i].x2,col[i].y2,color)
+		end
+	end
+	return false
+end
+function checkCol(x,y)
+	for i=1, #col do
+		if x >= col[i].x and x <= col[i].x2 and y >= col[i].y and y <= col[i].y2 then
+			return col[i].name
+		end
+	end
+	return false
+end
+-- COLLISION --
+-- COLOR RELATED --
+function renderImage(image,x,y) -- used to display custom images fast and easy
+	if not valid(image,"table") then return error("Expected table for image, got "..type(image)) end
+	if not valid(x,"number") then return error("Expected number for x, got "..type(x)) end
+	if not valid(y,"number") then return error("Expected number for y, got "..type(y)) end
+	
+	cp(x,y)
+	for i=1, #image do
+		term.blit(string.rep(" ", #image[i]),string.rep("0", #image[i]),image[i])
+		cp(x,y+i)
+	end
+end
+-- COLOR RELATED --
+-- RCM --
+local rcm_data = {}
+rcm_data.menu = {"Test 1", "Test 2", "Test 3"}
+rcm_data.active = false
+rcm_data.x, rcm_data.y = 1,1
+function rcm_click(x,y)
+	if x >= rcm_data.x and x <= rcm_data.x+lt(rcm_data.menu) and y >= rcm_data.y and y <= rcm_data.y+#rcm_data.menu then
+		return true
+	end
+	return false
+end
+function setRcmMenu(tab)
+	if not valid(tab,"table") then return error("Expected tab to be a table, got "..type(tab)) end
+	rcm_data.menu = tab
+end
+function rcm(x,y,options,wid,hei)
+	if not valid(x,"number") then return error("Expected number for x, got "..type(x)) end
+	if not valid(y,"number") then return error("Expected number for y, got "..type(y)) end
+	if not valid(options,"table") then return error("Expected table for image, got "..type(options)) end
+	local lnt = lt(options) -- short for longest term (used to set width of menu)
+	local w,h if not notnil(wid) or not notnil(hei) then w,h = term.getSize() else w,h = wid,hei end
+	if x >= w-lnt then
+		if y > h-#options-1 then
+			paintutils.drawBox(x-1,y-1,x-lnt-1,y-#options-1,colors.lightGray)
+			paintutils.drawFilledBox(x,y,x-lnt,y-#options,colors.white)
+			--cp(x,y) write("1")
+			setText("black")
+			for i=1, #options do
+				cp(x-lnt,y-#options+i-1) write(options[i])
+			end
+		else
+			paintutils.drawBox(x-lnt-1,y+1,x-1,y+#options+1,colors.lightGray)
+			paintutils.drawFilledBox(x-lnt,y,x,y+#options,colors.white)
+			--cp(x,y) write("2")
+			setText("black")
+			for i=1, #options do
+				cp(x-lnt,y+i-1) write(options[i])
+			end
+		end
+	elseif x < w-lnt then
+		if y > h-#options-1 then
+			paintutils.drawBox(x+1,y-#options-1,x+lnt+1,y-1,colors.lightGray)
+			paintutils.drawFilledBox(x,y-#options,x+lnt,y,colors.white)
+			--cp(x,y) write("3")
+			setText("black")
+			for i=1, #options do
+				cp(x,y-#options+i-1) write(options[i])
+			end
+		else
+			paintutils.drawBox(x+1,y+1,x+lnt+1,y+#options+1,colors.lightGray)
+			paintutils.drawFilledBox(x,y,x+lnt,y+#options,colors.white)
+			--cp(x,y) write("4")
+			setText("black")
+			for i=1, #options do
+				cp(x,y+i-1) write(options[i])
+			end
+		end
+	end
+	sleep(.0001)
+end
+-- RCM --
+-- WINDOWS & SHORTCUTS --
+window = {}
+desktop = {}
+local current = term.current()
+function createWindow(name,x,y,x2,y2,program)
+	table.insert(window,window.create(term.current(), x,y,x2,y2-1))
+	window[#window].display = true
+	window[#window].name = name or "window_"..#window -- reason being user programs and use manipulation
+end
+function findWindow(name)
+	for i=1, #window do
+		if window[i].name == name then
+			return i
+		end
+	end
+	return false
+end
+function moveWindow(id,newx,newy)
+	local current = term.current()
+	term.redirect(window[id])
+	window.reposition()
+	term.redirect(current)
+end
+function toggleWindow(id)
+	local current = term.current()
+	window.redirect(window[id])
+	window.setVisible(not window[id].display)
+	window[id].display = not window[id].display
+	window.redirect(current)
+end
+function shortcutExists(name)
+	for i=1, #desktop do
+		if desktop[i].name == name then
+			return i
+		end
+	end
+	return false
+end
+function drawShortcut(name,x,y)
+	if shortcutExists(name) ~= false then
+		cp(x,y) paintutils.drawImage(desktop[shortcutExists(name)].icon)
+		cp(x,y)
+	end
+end
+
+function createShortcut(name, icon)
+	if not shortcutExists(name) then
+		table.insert(desktop, {})
+		desktop[#desktop].name = name
+		desktop[#desktop].icon = icon
+		desktop[#desktop].x = 1
+		desktop[#desktop].y = 1
+	end
+end
+-- WINDOWS & SHORTCUTS --
+-- *** MAIN ENGINE *** *** MAIN ENGINE *** *** MAIN ENGINE *** --
+
+local dir = ".os"
+if fs.exists(dir.."/.backgrounds/desktop") then
+	desktop_img = paintutils.loadImage(dir.."/.backgrounds/desktop")
+end
+local functions = { -- PUT RCM OPTIONS HERE (ALL LOWERCASE AND WITH NO SPACES)
+	refresh = function() sleep(2) setBack("orange") clr() printCentered("Refreshing . . .", 5) sleep(3) shell.run("/.os/.gui") end,
+	debug = function() debug() end,
+	lua = function() setBack("black") term.setCursorPos(1,1) term.clear() shell.run("lua") end,
+	commandline = function() setBack("black") clr() term.setCursorPos(1,1) shell.run("shell") end,
+	desktop = function() shell.run("paint", "/.os//.backgrounds/desktop") reload() end,
+	usericon = function() shell.run("paint", "/.os/.backgrounds/pIcon") reload() end,
+ 	reboot = function() setBack("yellow") setText("red") clr() printCentered("- "..string.char(7).." % Re-Booting % "..string.char(7).." -", 5) sleep(2) os.reboot() end,
+	shutdown = function() setBack("yellow") setText("blue") clr() printCentered("- "..string.char(7).." % Shutting Down % "..string.char(7).." -", 5) sleep(2) os.shutdown() end,
+	reinstall = function() shell.run("/.os/.reinstall") end,
+	seperator = function() shell.run("/.os/.gui") end,
+	uninstaller = function() shell.run("/.os/.uninstall") end
+}
+running = true
+local update = true
+
+function runtime()
+	setRcmMenu({"Refresh", "Debug", "Lua", "CommandLine", "Desktop", "UserIcon", "ReBoot", "ShutDown", "ReInstall", "", "UnInstaller"})
+	term.setBackgroundColor(bg) 
+	clr()
+	while running do
+		if update then
+			update = false
+			term.setBackgroundColor(bg)
+			term.clear()
+			paintutils.drawImage(desktop_img,1,1)
+			paintutils.drawLine(1,h,w,h,tcolor)
+			paintutils.drawPixel(1,h,colors.blue)
+			local current = term.current()
+			for i=1, #window do
+				if window[i].display then
+					local current2 = term.current()
+					term.redirect(current)
+					paintutils.drawPixel(i+2,h,colors.lightGray) cp(i+2,h) write("^")
+					local wx,wy = term.getSize()
+					paintutils.drawLine(1,0,wx,0,colors.white)
+					term.redirect(current2)
+				else
+					local current2 = term.current()
+					term.redirect(current)
+					paintutils.drawPixel(i+2,h,colors.gray) cp(i+2,h) write("-")
+					term.redirect(current2)
+				end
+			end
+			term.redirect(current)
+			if rcm_data.active == true then
+				rcm(rcm_data.x,rcm_data.y,rcm_data.menu,w,h-1)
+			end
+		end
+		a,i,x,y = pullEvents("mouse_click", "mouse_drag")
+		if a == "mouse_click" then
+			if i == 1 then
+				if rcm_data.active then
+					if rcm_click(x,y) then
+						if notnil(functions[string.lower(rcm_data.menu[y-rcm_data.y+1] or "")]) then functions[string.lower(rcm_data.menu[y-rcm_data.y+1])]() end
+					end
+					rcm_data.active = false update = true setBack("yellow") clr() 
+				else
+					
+				end
+			elseif i == 2 then
+				setBack("yellow") clr() rcm_data.active = true rcm_data.x,rcm_data.y = x,y update = true
+			end
+		elseif a == "mouse_drag" then
+			
+		end
+	end
+end
+
+function engine() -- this will run windows that run programs that keep runtime running. runtime controls actions to the window
+	while running do
+		sleep(1)
+	end
+end
+
+local r,e = pcall(parallel.waitForAny(runtime,engine))
+
+if not r then
+    setBack("yellow") setText("white") clr()
+  setBack("gray") cp(1,h/2-4) term.clearLine() cp(1,h/2-4)
+  print("Yellow screen of Death") setText("yellow")
+  setBack("white")
+  cp(1,h/2-3)
+  for i=1, w do
+    write(" ")
+  end
+  setBack("lightGray")
+  for i=1, 8 do
+    cp(1,h/2-3+i)
+    term.clearLine()
+  end
+  cp(1,h/2-2)
+  print("A yellow screen error (also called a stop error) can occur if a problem causes your device to shut down or restart unexpectedly. Your device ran into a problem and needs to restart.")
+  print("")
+  write("Error Code: ")
+  printError(err)
+  term.setCursorBlink(false)
+  sleep(1)
+  print("")
+  print("Press any key to reboot...")
+  os.pullEvent("key")
+else
+    print("Exited without Errors")
+end
+os.reboot()

@@ -1,0 +1,129 @@
+shell.exit()
+shell.run( "set shell.allow_disk_startup false" )
+local version = "1.7"
+function clr() return term.clear() end
+function cp(x,y) return term.setCursorPos(x,y) end
+function setText(col) return term.setTextColor(colors[col]) end
+function setBack(col) return term.setBackgroundColor(colors[col]) end
+function notnil(vari) if vari == nil then return false else return true end end
+--[[
+
+Startup file created by SpaceRanger4827
+GUI Created by Just Does Games on Discord
+
+Dev notes:
+- [1357Coder] Added Security no Disk Booting at top of code
+- [1357Coder] Updated Code + Added Auto Update
+]]
+
+if shell.getRunningProgram() ~= "startup" or shell.getRunningProgram() ~= "startup.lua" then
+	-- This is not startup and means that this is the installer? nope
+end
+
+function printCentered(Text, Line)
+    local x, y = term.getSize()
+    x = x/2 - #Text/2
+    term.setCursorPos(x, Line)
+    if Color then 
+        col.set(Color, BkgColor) 
+    end
+    term.write(Text) 
+    return true  
+end
+
+function boot()
+	os.pullEvent = os.pullEventRaw
+	term.setBackgroundColor(colors.blue)
+	term.clear()
+	term.setCursorPos(14, 6)
+	term.setTextColor(colors.red)
+	write("Error » ")
+	write("No Boot Image")
+	sleep(1000)
+	os.reboot()
+end
+
+if not fs.exists("/.os/.boot") then
+	boot()
+end
+local boot = paintutils.loadImage("/.os/.boot") -- IF THIS FILE DOES NOT EXISTS, THE PROGRAM WILL CRASH WHEN CALLING THIS VARIABLE
+local w,h = term.getSize()
+
+
+ -- imported from .gui
+title = "SpaceOS" -- imported by JDG (feel free to change this to the actual os name... was not given an os name, just assumed. lol SOS)
+
+function main()
+	setText("white")
+	setBack("yellow")
+  	clr()
+  	cp(w-string.len(version),h) write(version)
+  	cp(1,h) write(title)
+  	for i=1, #boot do
+  		paintutils.drawImage(boot, w/3, 4)
+  		setBack("yellow")
+  		for ii=1, #boot-i do
+  			cp(2,#boot+4-ii)
+  			term.clearLine()
+  		end
+  		sleep(.1)
+  	end
+  	sleep(1)
+  	cp(w/3+1,2) setBack("lightGray") for i=1, 12 do write(" ") end
+  	for i=1, math.random(1,2) do
+  		cp(w/3+1,2)
+  		setBack("gray")
+  		for i=1, 12 do write(" ") sleep(.1) end
+  		cp(w/3+1,2)
+  		setBack("lightGray")
+  		for i=1, 12 do write(" ") sleep(.1) end
+  	end
+  	setBack("yellow") clr() sleep(.5)
+end
+
+local latestVersion = http.get("http://www.pastebin.com/raw/7TEJpdaK")
+local lversion = latestVersion.readAll()
+if lversion > version then
+	term.setBackgroundColor( colors.red )
+	term.clear()
+	printCentered("Update SpaceOS", 7)
+	term.setCursorPos(20, 8)
+	sleep(3)
+	term.clear()
+	a = read()
+	if a == "" then
+		shell.run("pastebin run LqKwPb6N")
+	else
+		shell.run("/.os/.password")
+	end
+	else
+		shell.run("/.os/.password")
+end
+if not ok then
+	setBack("yellow") setText("white") clr()
+  setBack("gray") cp(1,h/2-4) term.clearLine() cp(1,h/2-4)
+  print("Yellow screen of Death") setText("yellow")
+  setBack("white")
+  cp(1,h/2-3)
+  for i=1, w do
+    write(" ")
+  end
+  setBack("lightGray")
+  for i=1, 8 do
+    cp(1,h/2-3+i)
+    term.clearLine()
+  end
+  cp(1,h/2-2)
+  print("A yellow screen error (also called a stop error) can occur if a problem causes your device to shut down or restart unexpectedly. Your device ran into a problem and needs to restart.")
+  print("")
+  write("Error Code: ")
+  printError(err)
+  term.setCursorBlink(false)
+  sleep(1)
+  print("")
+  print("Press any key to reboot...")
+  os.pullEvent("key")
+else
+	print("Exited without Errors")
+end
+os.reboot()

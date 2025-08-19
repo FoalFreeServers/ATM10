@@ -1,0 +1,190 @@
+-- SpaceOS Game = Platformer --
+ 
+-- *** MAIN ENGINE *** *** MAIN ENGINE *** *** MAIN ENGINE *** --
+-- FUNCTIONS --
+local w,h = term.getSize()
+function valid(value,expected) if type(value) == expected then return true else return false end end
+function clr() term.clear() end
+function cp(x,y) if not valid(x,"number") then return error("Expected x to be a number, got "..type(x)) end if not valid(y,"number") then return error("Expected y to be a number, got "..type(y)) end term.setCursorPos(x,y) end
+function setText(col) if not valid(col,"string") then return error("Expected col to be a string, got "..type(x)) else return term.setTextColor(colors[col]) end end
+function setBack(col) if not valid(col,"string") then return error("Expected col to be a string, got "..type(x)) else return term.setBackgroundColor(colors[col]) end end
+function notnil(vari) return vari ~= nil end
+function lt(tab) if not valid(tab,"table") then return error("Expected tab to be a table, got "..type(tab)) end local lt = 0 for i=1, #tab do if #tab[i] > lt then lt = #tab end end return lt end
+function pullEvents(...) -- for pulling multiple events at a time, first event get priority
+    local args = {...}
+    --if #args == 0 then return os.pullEvent() end
+    while true do
+        event, arg1, arg2, arg3 = os.pullEvent()
+        for i=1, #args do
+            if args[i] == event then
+                return event, arg1, arg2, arg3
+            end
+        end
+    end
+end
+-- FUNCTIONS --
+-- COLLISION --
+col = {}
+function createCol(name,x,y,x2,y2,status)
+    name = name or "name_"..#col table.insert(col,{}) status = status or true
+    col[#col].x, col[#col].y, col[#col].x2, col[#col].y2, col[#col].name, col[#col].status = x, y, x2, y2, name, status
+end
+function colExists(name)
+    for i=1, #col do
+        if col[i].name == name then return i end
+    end
+    return false
+end
+function removeCol(name)
+    if colExists(name) ~= false then table.remove(col, colExists(name)) end
+end
+function moveCol(name,newx,newy)
+    col[name].x2,col[name].y2 = col[name].x2+newx-col[name].x, col[name].y2+newy-col[name].y
+    col[name].x,col[name].y = newx,newy
+end
+function drawCol(name, color)
+    if not notnil(color) then if col[name].status then color = colors.green else color = colors.red end end
+    for i=1, #col do
+        if name == col[i].name then
+            return paintutils.drawFilledBox(col[i].x,col[i].y,col[i].x2,col[i].y2,color)
+        end
+    end
+    return false
+end
+function checkCol(x,y)
+    for i=1, #col do
+        if x >= col[i].x and x <= col[i].x2 and y >= col[i].y and y <= col[i].y2 then
+            return col[i].name
+        end
+    end
+    return false
+end
+-- COLLISION --
+-- *** MAIN ENGINE *** *** MAIN ENGINE *** *** MAIN ENGINE *** --
+local player = {}
+local run = true
+player.x = 1
+player.y = 1
+player.isJumping = false
+player.isFalling = false
+player.jumpDisabled = false
+local settings = {}
+settings.jumpHeight = 4 -- 3 being 3 px
+settings.jumpGravity = .9 -- effect gravity for player
+settings.fallSpeed = 2
+settings.bounceHeight = 4
+ 
+local function moveCharacter(x,y)
+    for i=1, #col do
+        drawCol(col[i].name,colors.white)
+    end
+    local valid = true
+    if x < player.x then
+        if checkCol(player.x-1,player.y) ~= false then
+            valid = false
+        end
+    elseif x > player.x then
+        if checkCol(player.x+1,player.y) ~= false then
+            valid = false
+        end
+    end
+    if y < player.y then
+        if checkCol(player.x,player.y-1) ~= false then
+            valid = false
+        end
+    elseif y > player.y then
+        if checkCol(player.x,player.y+1) ~= false then
+            valid = false
+        end
+    end
+    if valid then
+        cp(player.x,player.y) setBack("black") write(" ")
+        cp(x,y) setBack("yellow") write(" ") setBack("black")
+        player.x, player.y = x, y
+    end
+end
+clr()
+moveCharacter(math.floor(w/2),1)
+ 
+local function gravity()
+    while run do
+        if player.isJumping and not player.isFalling and not player.jumpDisabled then
+            local cnt = 0
+            while cnt <= settings.jumpHeight do
+                if checkCol(player.x,player.y-1) ~= false then break end moveCharacter(player.x,player.y-1) sleep((cnt/settings.jumpGravity)*.06) cnt = cnt + 1
+            end
+            player.jumpDisabled = true
+        else
+            if checkCol(player.x,player.y+1) == false then
+                player.isFalling = true
+                local loop = settings.fallSpeed
+                local force_quit = false
+                repeat
+                    moveCharacter(player.x,player.y+1) sleep(loop*.09)
+                    if loop ~= 0 then loop = loop - 0.1 end
+                    if player.y == h then force_quit = true end
+                until checkCol(player.x,player.y+1) ~= false or force_quit == true
+                if force_quit == true then
+                    local cnt = 0
+                    while cnt <= settings.bounceHeight do
+                        if checkCol(player.x,player.y-1) ~= false then break end moveCharacter(player.x,player.y-1) sleep((cnt/settings.jumpGravity)*.06) cnt = cnt + 1
+                    end
+                end
+                player.isFalling = false
+                player.isJumping = false
+                player.jumpDisabled = false
+            end
+        end
+        sleep(.0001)
+    end
+end
+ 
+local function playerController()
+    while run do
+        a,i,held = pullEvents("key")
+        if i == keys.d or i == keys.right then
+            moveCharacter(player.x+1,player.y)
+        elseif i == keys.a or i == keys.left then
+            moveCharacter(player.x-1,player.y)
+        elseif i == keys.s or i == keys.down then
+            moveCharacter(player.x,player.y+1)
+        elseif i == keys.q then
+            run = false
+        elseif i == keys.space then
+            if not player.jumpDisabled then player.isJumping = true else if checkCol(player.x,player.y+1) ~= false then player.jumpDisabled = false player.isJumping = true end end
+        end
+    end
+end
+ 
+local function createFloor(x,y)
+    if checkCol(x,y) == false then
+        if x == player.x and y == player.y then
+            -- for later things maby
+        else
+            createCol("floor_"..x.."_"..y,x,y,x,y,true)
+            drawCol("floor_"..x.."_"..y,colors.white)
+        end
+    end
+end
+local function removeFloor(x,y)
+    removeCol("floor_"..x.."_"..y)
+    cp(x,y) setBack("black") write(" ")
+end
+ 
+local function editController()
+    while run do
+        a,i,x,y = pullEvents("mouse_click","mouse_drag")
+        if i == 1 then
+            createFloor(x,y)
+        elseif i == 2 then
+            removeFloor(x,y)
+        end
+    end
+end
+ 
+local function runtime()
+    parallel.waitForAny(playerController,editController,gravity)
+end
+ 
+runtime()
+cp(1,1) setBack("black") setText("white") clr() print("Thnks for playing...") sleep(.1)

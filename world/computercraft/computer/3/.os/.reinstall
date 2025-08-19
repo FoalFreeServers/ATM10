@@ -1,0 +1,54 @@
+-- Functions
+function printCentered(Text, Line)
+    local x, y = term.getSize()
+    x = x/2 - #Text/2
+    term.setCursorPos(x, Line)
+    if Color then
+        col.set(Color, BkgColor)
+    end
+    term.write(Text)
+    return true  
+end
+ 
+function init()
+  term.clear()
+  term.setBackgroundColor( colors.red )
+  term.setTextColor( colors.blue )
+  term.clear()
+  printCentered("ReInstall OS ?", 5)
+  sleep(1)
+  term.setCursorPos( 13, 6 )
+  term.setTextColor( colors.black )
+  while true do
+  local event, key = os.pullEvent("key")
+  if key == keys.y then
+    term.setBackgroundColor( colors.orange )
+    term.setTextColor( colors.blue )
+    term.clear()
+    printCentered("UnInstalling . . .", 5)
+    sleep(3)
+    printCentered("Deleteing Desktop, and all System Files", 6)
+    sleep(3)
+    fs.delete("/.os/")
+    fs.delete("/startup")
+    fs.delete("/startup.lua")
+        fs.delete("/edit")
+    sleep(2)
+    term.clear()
+    printCentered("UnInstalled, ReInstalling . . .", 5)
+    sleep(1)
+    shell.run("pastebin run LqKwPb6N")
+  else
+    term.setBackgroundColor( colors.yellow )
+    term.clear()
+    printCentered("ReInstallation Failed. Going back to GUI", 5)
+    sleep(2)
+    term.setBackgroundColor( colors.black )
+    term.clear()
+    shell.run("/.os/.gui")
+  end
+end
+end
+ 
+-- Main Init
+init()

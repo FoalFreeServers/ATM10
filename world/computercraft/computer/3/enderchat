@@ -1,0 +1,148 @@
+-- enderchat.lua
+-- Usage:
+--   enderchat <ws_url>
+-- Example:
+--   enderchat ws://your.server:80/ws
+--   enderchat wss://your.domain/ws
+
+local args = { ... }
+local WS_URL = args[1] or "ws://127.0.0.1:80/ws"
+
+local function nowUtcMs()
+  if os.epoch then
+    return math.floor(os.epoch("utc"))
+  else
+    -- Fallback if epoch not available
+    return math.floor(os.time() * 1000)
+  end
+end
+
+local function encodeJson(tbl)
+  if textutils and textutils.serializeJSON then
+    return textutils.serializeJSON(tbl)
+  end
+  error("This program requires CC:Tweaked with textutils.serializeJSON")
+end
+
+local function decodeJson(str)
+  if textutils and textutils.unserializeJSON then
+    return textutils.unserializeJSON(str)
+  end
+  return nil
+end
+
+local function printHelp()
+  print("Commands:")
+  print("  /quit       - close connection and exit")
+  print("  /help       - show this help")
+end
+
+local function connect(url)
+  term.setTextColor(colors.cyan)
+  print("Connecting to " .. url .. " ...")
+  term.setTextColor(colors.white)
+  local ws, err = http.websocket(url)
+  if not ws then
+    term.setTextColor(colors.red)
+    print("Failed to connect: " .. tostring(err))
+    term.setTextColor(colors.white)
+    return nil, err
+  end
+  term.setTextColor(colors.green)
+  print("Connected.")
+  term.setTextColor(colors.white)
+  return ws
+end
+
+local function runSession(ws)
+  local running = true
+
+  local function recvLoop()
+    while running do
+      local msg, err = ws.receive()
+      if not msg then
+        term.setTextColor(colors.yellow)
+        print("Connection closed: " .. tostring(err))
+        term.setTextColor(colors.white)
+        running = false
+        return
+      end
+      local obj = decodeJson(msg)
+      if type(obj) == "table" then
+        local from = obj.from or "unknown"
+        local typ = obj.type or "?"
+        local text = obj.text or (textutils and textutils.serialize and textutils.serialize(obj)) or "[object]"
+        term.setTextColor(colors.lightBlue)
+        print(("<< [%s][%s] %s"):format(from, typ, text))
+        term.setTextColor(colors.white)
+      else
+        term.setTextColor(colors.lightBlue)
+        print("<< [raw] " .. tostring(msg))
+        term.setTextColor(colors.white)
+      end
+    end
+  end
+
+  local function sendLoop()
+    printHelp()
+    while running do
+      io.write(">> ")
+      local line = read()
+      if not line then
+        running = false
+        break
+      end
+      line = line:gsub("%s+$", "")
+
+      if line == "/quit" then
+        running = false
+        break
+      elseif line == "/help" then
+        printHelp()
+      elseif line ~= "" then
+        local payload = {
+          type = "chat",
+          from = "game",
+          text = line,
+          ts = nowUtcMs(),
+        }
+        local json = encodeJson(payload)
+        local ok, err = pcall(function() ws.send(json) end)
+        if not ok then
+          term.setTextColor(colors.red)
+          print("Send failed: " .. tostring(err))
+          term.setTextColor(colors.white)
+        end
+      end
+    end
+  end
+
+  parallel.waitForAny(recvLoop, sendLoop)
+  running = false
+  pcall(function() ws.close() end)
+end
+
+local backoff = 0.5
+while true do
+  local ws = connect(WS_URL)
+  if ws then
+    backoff = 0.5
+    runSession(ws)
+    term.setTextColor(colors.yellow)
+    print("Disconnected.")
+    term.setTextColor(colors.white)
+  else
+    term.setTextColor(colors.red)
+    print(("Retrying in %.1fs ..."):format(backoff))
+    term.setTextColor(colors.white)
+    sleep(backoff)
+    backoff = math.min(backoff * 2, 8)
+  end
+
+  -- Ask to reconnect or exit
+  io.write("Reconnect? (Y/n): ")
+  local ans = read()
+  if ans and ans:lower():sub(1,1) == "n" then
+    break
+  end
+end

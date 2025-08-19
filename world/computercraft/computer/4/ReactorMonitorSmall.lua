@@ -69,12 +69,14 @@ while R1.isFormed() do
     local OFBEnergy = P1.getEnergy()
     local OFBCharge = math.floor(P1.getEnergyFilledPercentage()*100)
     local OFBMax    = P1.getMaxEnergy()
-    local OFBTime   = (math.floor((OFBMax - OFBEnergy) / TProd)) 
+    local OFBIn     = P1.getLastInput()
+    local OFBOut    = P1.getLastOutput()
+    local OFBTime   = (math.floor((OFBMax - OFBEnergy) / (OFBIn-OFBOut))) 
     local OFBStat   = OFBTime
     
     local monitor = peripheral.find("monitor")
     monitor.setTextScale(0.5)
-    
+     
     if not Status
         then ROnOff = "Reactor Idle"
     elseif ActBurn == 0
@@ -137,7 +139,7 @@ print("OFB Maximum Capacity     : "..(tKFE((OFBMax)*0.000001)).."GFE")
 
 print("Time to OFB Capacity     : ")
 
-    if OFBTime*0.05 > 36000
+    if OFBTime*0.05 > 36000 or OFBTime*0.05 < 0
         then OFBStat = "10+ hours"
              term.setTextColor(colors.lightBlue)
     elseif OFBTime*0.05 < 36000 and OFBTime*0.05 > 7200
