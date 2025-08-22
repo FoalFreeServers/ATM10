@@ -3,21 +3,18 @@
   //
   //   Take a break, rest a while, enjoy the scenery! :)
   //
-  //   WARNING: ONLY WORKS ON FABRIC! Due to NeoForge/Forge lacking an API for our config to work,
-  //   this configuration file only works on Fabric environment.
+  //   Using this config, you can:
+  //   - Prevent structures from generating by de-activating them.
+  //   - Modify values used in calculating structure locations to modify their chance to generate.
   //
+  //   You can modify the biomes these structures spawn in through datapacks.
   //
-  //   Here, you can turn off structures and change their generation pattern.
-  //   Since 1.4.1+1.18.2, you can also edit these values in datapacks.
-  //   However, this Config was brought back so you can easily edit these values.
-  //   It is important to note you can edit what biomes these structures spawn in
-  //   using datapacks if you want to have that configuration option.
+  //   Structures use two numbers to determine structure locations:
+  //   - Separation is the minimum chunk distance between structures of that type.
+  //   - Spacing is the average chunk distance between structures of that type.
+  //   Modifying these values can shift the chances a structure generates.
   //
-  //   To turn off a structure, simply go to the corresponding entry and set `activated` to false.
-  //
-  //   Mo' Structures uses the vanilla structure spawning system. That is-
-  //   - Separation is the minimum chunks between structures
-  //   - Spacing is the average chunks between structures
+  //   If you have any questions, please join my discord available in our CurseForge page.
   "structureConfigEntries": {
     "villager_tower": {
       "activated": true,
@@ -98,6 +95,11 @@
       "activated": true,
       "separation": 14,
       "spacing": 30
+    },
+    "sphinx": {
+      "activated": true,
+      "separation": 16,
+      "spacing": 24
     }
   }
 }

@@ -161,6 +161,10 @@
 	# Default: 8
 	# Range: > 1
 	scuba_multiplier = 8
+	#Jetboots height limit before cutting out, relative to world max build height
+	# Default: 64
+	# Range: > -2147483648
+	jet_boots_height_limit = 64
 	#Minimum depth below sea level at which air usage starts to increase (if 'scuba_air_usage_per_block_depth' is > 0)
 	# Default: 0
 	# Range: > 0

@@ -1,3 +1,6 @@
+#A list of preferred Mod IDs that results of IE processes should stem from, aka which mod you want the copper to come from.
+#This affects the ores dug by the excavator, as well as those crushing recipes that don't have associated IE items. This list is in oreder of priority.
+preferredOres = ["minecraft", "alltheores", "allthemodium", "kubejs", "mekanism", "modern_industrialization", "occultism", "industrialforegoing", "pneumaticcraft", "biggerreactors", "ae2", "enderio", "utilitarian", "actuallyadditions"]
 #IMPORTANT NOTICE:
 #THIS IS ONLY THE COMMON CONFIG. It does not contain all the values adjustable for IE.
 #All modifiers for machines, all ore gen, the retrogen features and most other adjustable values have been moved to immersiveengineering-server.toml.
@@ -5,9 +8,6 @@
 #You can then take that config file and put it in the 'defaultconfigs' folder to make it apply automatically to all NEW worlds you generate FROM THERE ON.
 #This may appear confusing to many of you, but it is a new sensible way to handle configuration, because the server configuration is synced when playing multiplayer.
 importantInfo = true
-#A list of preferred Mod IDs that results of IE processes should stem from, aka which mod you want the copper to come from.
-#This affects the ores dug by the excavator, as well as those crushing recipes that don't have associated IE items. This list is in oreder of priority.
-preferredOres = ["immersiveengineering", "minecraft"]
 
 	[debug.wires]
 		#Enable detailed logging for the wire network. This can be useful for developers to track down issues related to wires.

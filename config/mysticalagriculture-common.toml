@@ -36,6 +36,8 @@
 	fakePlayerWatering = false
 	#Should wearing a full set of Awakened Supremium armor grant the Plant Growth AOE set bonus?
 	awakenedSupremiumSetBonus = true
+	#Should resource crops need to be planted on their effective Farmland to grow?
+	requiresEffectiveFarmland = false
 	#Should Supremium & Awakened Supremium Armor be unbreakable?
 	unbreakableSupremiumArmor = false
 

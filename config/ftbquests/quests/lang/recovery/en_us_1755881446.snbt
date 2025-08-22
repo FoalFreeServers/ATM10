@@ -1,0 +1,192 @@
+{
+	"chapters/occultism.snbt": {
+		quest.4F35D04721DFC9FF.quest_desc: {
+			new: [
+				"The first type of ritual we'll be performing is the &9Summoning Ritual&r. These rituals are used to summon different types of useful Demons to assist you in crushing, smelting, and more as you get to higher tiers of rituals."
+				""
+				"For our first ritual, we want to summon a &aFoliot Crusher&r Demon. This Demon will crush items for us, which is something we'll need to make some of the higher level Chalks!"
+				""
+				"To start with, combine your Unbound Book with your &aDictionary of Spirits&r in a crafting grid. This will bind a Demon to the Book, which is what we'll need for the ritual."
+				""
+				"Speaking about your Dictionary of Spirits, it's time to open it up! On the left, click on the &dPentacles&r tab and click on &bAviar's Circle&r. You might have to advance through it by reading a little bit. There is also a way to click \\\"Mark All As Read\\\" so it unlocks everything in the Book."
+				""
+				"This is what we're going to use to summon our new friend. On the right side, you can click the eye in the bottom-left corner of the image to build an outline of the ritual for you in the world. This is super helpful!"
+				""
+				"Once you've completed the multi-block ritual, place down 4 (or more for future rituals) Sacrificial Bowls anywhere within 8 block horizontal radius from the center Sacrificial Bowl and use the required items on them. Once you place your Bound Book in the Golden Sacrificial Bowl, the ritual will start!"
+				""
+				"This is what the ritual will look like."
+				""
+				"{image:atm:textures/questpics/occultism/aviarcirclenew.png width:200 height:200 align:1}"
+			]
+			old: [
+				"The first type of ritual we'll be performing is the &9Summoning Ritual&r. These rituals are used to summon different types of useful Demons to assist you in crushing, smelting, and more as you get to higher tiers of rituals."
+				""
+				"For our first ritual, we want to summon a &aFoliot Crusher&r Demon. This Demon will crush items for us, which is something we'll need to make some of the higher level Chalks!"
+				""
+				"To start with, combine your Unbound Book with your &aDictionary of Spirits&r in a crafting grid. This will bind a Demon to the Book, which is what we'll need for the ritual."
+				""
+				"Speaking about your Dictionary of Spirits, it's time to open it up! On the left, click on the &dPentacles&r tab and click on &bAviar's Circle&r. You might have to advance through it by reading a little bit. There is also a way to click \\\"Mark All As Read\\\" so it unlocks everything in the Book."
+				""
+				"This is what we're going to use to summon our new friend. On the right side, you can click the eye in the bottom-left corner of the image to build an outline of the ritual for you in the world. This is super helpful!"
+				""
+				"Once you've completed the multi-block ritual, place down 4 (or more for future rituals) Sacrificial Bowls anywhere within 8 block horizontal radius from the center Sacrificial Bowl and use the required items on them. Once you place your Bound Book in the Golden Sacrificial Bowl, the ritual will start!"
+				""
+				"This is what the ritual will look like."
+				""
+				""
+				"{image:atm:textures/questpics/occultism/aviarcirclenew.png width:200 height:200 align:center}"
+			]
+		}
+	}
+	"chapters/productive_bees.snbt": {
+		quest.2BE538246C672689.quest_desc: {
+			new: ["Using a smeltery, pour &#9332D9Molten Unobtainium&r over an &#F2EB2EVibranium Bee Spawn Egg&r."]
+			old: ["Once you have the &9Vibranium&r Bee, pour &5molten Unobtanium&r to get an &5Unobtainium Bee&r."]
+		}
+		quest.150FB369BEFFCBBF.quest_subtitle: {
+			new: "Molten Lumium over Silver/Tin Bee Spawn Egg"
+			old: "Silver + Tin"
+		}
+		quest.02F3133A9006BC1E.quest_subtitle: {
+			new: "Molten Steel over Iron/Coal Bee Spawn Egg"
+			old: "Iron + Coal"
+		}
+		quest.6E819CCD57B15D54.quest_desc: {
+			new: ["Using a smeltery, pour &#4CE688Molten Vibranium&r over an &#F2EB2EAllthemodium Bee Spawn Egg&r."]
+			old: ["Pour &9molten Vibranium&r over an &eAllthemodium bee egg&r to get a &9Vibranium Bee&r!"]
+		}
+		quest.6EFFF0DC80C1C8A3.quest_desc: {
+			new: ["Using a smeltery, pour &#F2EB2EMolten Allthemodium&r over an &#944A12Ancient Bee Spawn Egg&r."]
+			old: ["To get the &eAllthemodium Bee&r, pour &emolten Allthemodium&r over an ancient bee egg."]
+		}
+		quest.734A72A4C898BDFB.quest_subtitle: {
+			new: "Molten Invar over Tin/Iron Bee Spawn Egg"
+			old: "Iron + Nickel"
+		}
+		quest.0D97CDE92F3B1A83.quest_subtitle: {
+			new: "Molten enderium over lead/diamond/platinum bee egg"
+			old: "Lead + Diamond/Platinum"
+		}
+		quest.3054D016D2EF25FF.quest_subtitle: {
+			new: "Molten Electrum over Gold/Silver Bee Spawn Egg"
+			old: "Gold + Silver"
+		}
+		quest.5DF26D712B643655.quest_subtitle: {
+			new: "Molten Brass over Zinc/Copper Bee Spawn Egg"
+			old: "Copper + Zinc"
+		}
+		quest.6E4C3B87FABE9EFA.quest_subtitle: {
+			new: "Molten Bronze over Copper/Tin Bee Spawn Egg"
+			old: "Copper + Tin"
+		}
+		quest.52B22C07818981D0.quest_subtitle: {
+			new: "Molten Constantan over Nickel/Copper Bee Spawn Egg"
+			old: "Copper + Nickel"
+		}
+		quest.6F7AC41B703028CC.quest_subtitle: {
+			new: "Molten Signalum over Copper/Silver Bee Spawn Egg"
+			old: "Silver + Copper"
+		}
+	}
+	"chapters/mekanism.snbt": {
+		quest.424B3E3B299D3999.quest_desc: {
+			new: ["The Gauge &8Dropper&r is a useful Tool for clearing out &cChemical Inventories&r. \\n\\nIn a &5Machine's&r GUI, pick up the Gauge &8Dropper&r and drag it over the &cChemicals&r in the &5Machine&r. Then, just Right Click and it'll remove the &cChemicals&r and add them to the &8Dropper&r. \\nI should have specified, we can get those &cChemicals&r back from the Gauge &8Dropper&r by clicking any &5Chemical Storage&r like a tank or clear the &8Dropper&r by shift-clicking it in the air."]
+			old: ["The Gauge &8Dropper&r is a useful Tool for clearing out &cChemical Inventories&r. \\n\\nIn a &5Machine's&r GUI, pick up the Gauge &8Dropper&r and drag it over the &cChemicals&r in the &5Machine&r. Then, just Right Click and it'll remove the &cChemicals&r and add them to the &8Dropper&r. \\nI should have specified, we can't get those &cChemicals&r back from the Gauge &8Dropper&r. We can only Empty it through Shift Right Clicking the Item."]
+		}
+	}
+	"chapters/apothic_enchanting.snbt": {
+		quest.7C9D9D1C054874A7.quest_desc: {
+			new: ["Ever want the most perfect &5Enchantments&r? Like, every stat maxed out, every good &5Enchantment&r available? Then, you'll need these! \\n\\nFirst, is the 5 &9Soul-Touched Sculkshelves&r and 5 &9Echoing Sculkshelves&r. These will give us all the &cQuanta&r and &5Arcana&r we need! \\n\\nNext, is the &dDraconic Endshelf&r which will give us &a100 Eterna&r, as in amount of &aEterna&r and the max level. \\n\\nThird, is the &6Geode-Encased Bookshelf of Stability&r, this will make it so the &cQuanta&r doesn't backstab us with awful &5Enchantments&r! \\n\\nLast is optional but you should add it, the &6Deepshelf of Arcane Treasures&r. That &7Bookshelf&r will allow us to get &5Enchantments&r we normally wouldn't, like &5Mending&r!"]
+			old: ["Ever want the most perfect &5Enchantments&r? Like, every stat maxed out, every good &5Enchantment&r available? Then, you'll need these! \\n\\nFirst, is the 4 &9Soul-Touched Sculkshelves&r and 4 &9Echoing Sculkshelves&r. These will give us all the &cQuanta&r and &5Arcana&r we need! \\n\\nNext, is the &dDraconic Endshelf&r which will give us &a100 Eterna&r, as in amount of &aEterna&r and the max level. \\n\\nThird, is the &6Geode-Encased Bookshelf of Stability&r, this will make it so the &cQuanta&r doesn't backstab us with awful &5Enchantments&r! \\n\\nLast is optional but you should add it, the &6Deepshelf of Arcane Treasures&r. That &7Bookshelf&r will allow us to get &5Enchantments&r we normally wouldn't, like &5Mending&r!"]
+		}
+	}
+	"chapters/forbidden__arcanus.snbt": {
+		quest.580148D1141446A6.quest_desc: {
+			new: [
+				"&c&lNether&r too scary for you? Then, you can look for Souls in the &2&lOverworld&r!\\n\\nWithin your World (I made you go to Dark Forests because old &l&6Forbidden \\& Arcanus&r used to have Blocks there) you might find some Lost Souls wandering around.\\n\\nYou can kill them for the Souls that they drop! It is much less efficient though...\\n"
+				"If you are having troubles finding Souls, you might wanna look into Soul Looting enchantment on your sword. Killing mobs with this enchantment will occassionally spawn Souls."
+			]
+			old: ["&c&lNether&r too scary for you? Then, you can look for Souls in the &2&lOverworld&r! \\n\\nWithin your World (I made you go to Dark Forests because old &l&6Forbidden \\& Arcanus&r used to have Blocks there) you might find some Lost Souls wandering around. \\n\\nYou can kill them for the Souls that they drop! It is much less efficient though..."]
+		}
+	}
+	"chapters/chapter_2_the_star.snbt": {
+		quest.3BE5CD0C7CC4BCC6.quest_desc: {
+			new: [
+				"Soul Lava is a part of &6&lAllthemodium&r. It can be found in &b&lThe Other&r very rarely underground, or common in Piglich Villages!\\n\\nWe'll need to take a Bucket of &9Soul Lava&r and pour it over a Ghostly Bee egg to make a &9Soul Lava Bee egg&r.\\n\\nThen, you'll need to squish them or poke them for it's DNA to make a Spawn Egg!\\n"
+				"{image:atm:textures/questpics/soul_lava_process.png width:100 height:100 align:center}"
+			]
+			old: ["Soul Lava is a part of &6&lAllthemodium&r. It can be found in &b&lThe Other&r very rarely underground, or common in Piglich Villages!\\n\\nWe'll need to feed a Bucket of &9Soul Lava&r to a Ghostly Bee to make a &9Soul Lava Bee&r.\\n\\nThen, you'll need to squish them or poke them for it's DNA to make a Spawn Egg!  "]
+		}
+	}
+	"chapters/achapter_2r_6the_atm_star.snbt": {
+		quest.1FFF00B5D90C3905.quest_desc: {
+			new: ["You can get &cMundabitur Dust&r in many different ways so I'll just give you a quick introduction to &bArcane Crystals&r! \\n\\nWhich yes are a crafting ingrediant if you want to craft it. \\n\\nYou'll have to mine for &bArcane Crystals&r first; then, you can use &2&lMA&r or &6&lBees&r to make more!"]
+			old: ["You can get &cMundabitur Dust&r in many different ways so I'll just give you a quick introduction to &bArcane Crystals&r! \\n\\nWhich yes are a crafting ingrediant if you want to craft it. \\n\\nYou'll have to mine for &bArcane Crystals&r first; then, you can use &6&lBees&r to make more!"]
+		}
+	}
+	"chapters/allthemodium.snbt": {
+		quest.111E4ACF7D570EE8.quest_desc: {
+			new: [
+				"Only the hardest Structure in &2&lVanilla Minecraft&r. So of course that's where you'll have to look for &6Allthemodium&r!\\n\\nYou can find the Ore in the walls of Caves around the Ancient Cities, it's Glowing so it'll be easy to spot just very rare!\\n\\n You will also be able to locate it in any &5Deep Dark Biome&r."
+				"{image:atm:textures/questpics/allthemodium/all_city.png width:200 height:100 align:center}"
+			]
+			old: [
+				"Only the hardest Structure in &2&lVanilla Minecraft&r. So of course that's where you'll have to look for &6Allthemodium&r!\\n\\nYou can find the Ore in the walls of Caves around the Ancient Cities, it's Glowing so it'll be easy to spot just very rare!\\n"
+				"{image:atm:textures/questpics/allthemodium/all_city.png width:200 height:100 align:center}"
+			]
+		}
+		quest.226B8B60AF864FEF.quest_desc: {
+			new: [
+				"To upgrade &6Allthemodium&r to &3Vibranium&r you will need another Smithing Template. \\nThis one you can find by Brushing Suspicious Soul Sand. \\n\\nWhich is found in Bastions in &l&cThe Nether&r.\\n"
+				"{image:atm:textures/questpics/allthemodium/all_bastion.png width:200 height:100 align:center}"
+				"{image:atm:textures/questpics/allthemodium/all_soul.png width:200 height:100 align:center}"
+			]
+			old: [
+				"To upgrade &6Allthemodium&r to &3Vibranium&r you will need another Smithing Template. \\nThis one you can find by Brushing Suspicious Soul Sand. \\n\\nWhich is found in &eTreasure Bastions&r in &l&cThe Nether&r.\\n"
+				"Image of the &eTreasure Bastion&r you are looking for is in the quest."
+				""
+				"{image:atm:textures/questpics/allthemodium/bastion_remnant_1.png width:100 height:100 align:center}"
+				"{image:atm:textures/questpics/allthemodium/all_bastion.png width:200 height:100 align:center}"
+				"{image:atm:textures/questpics/allthemodium/all_soul.png width:200 height:100 align:center}"
+			]
+		}
+	}
+	"chapters/justdirethings.snbt": {
+		quest.0FAF274ADA65B26A.quest_desc: {
+			new: ["Portal Fluid is a mysterious green fluid vital in the operation of the Advanced Portal Gun.\\n\\nDropping Portal Fluid Catalyst into Polymorphic Fluid will create Unstable Portal Fluid BUT Unstable Portal Fluid can only exist in the End. Performing Goo Spread with Tier Three goo or higher will convert Unstable Portal Fluid into Portal Fluid."]
+			old: ["Portal Fluid is a mysterious green fluid vital in the opertaion of the Advanced Portal Gun.\\n\\nDropping Portal Fluid Catalyst into Polymorphic Fluid will create Unstable Portal Fluid BUT Unstable Portal Fluid can only exist in the End. Performing Goo Spread with Tier Three goo or higher will convert Unstable Portal Fluid into Portal Fluid."]
+		}
+	}
+	"chapters/mekanism_reactors.snbt": {
+		quest.505799C894C771B2.quest_desc: {
+			new: [
+				"Some &5Machines&r from &5&lMekanism&r can be Upgraded like the &9&lMetallurgic Infuser&r and &d&lEnrichment Chamber&r. Some can't though, these can only take &8Upgrade&r Cards. \\nThe &6&lATM Devs&r saw this and wanted Players to instead of making 50 &9&lElectrolytic Separators&r they can make 1 Multiblock! \\n\\nIn order to Craft these Multiblocks though, we'll need a previous Multiblock. The &c&lAutomatic Hepheastus Forge&r. \\n\\nIt has its own Quest in &aChapter 4&r: &dCreative&r. Check it out there! \\n\\nAll of the Multiblocks use the same Structure just with different Controllers. Check out the Next Page in order to see Instructions on Building it!"
+				"{@pagebreak}"
+				"The first layer is the most complicated with it hosting all of the &cMachine Casings&r. The various &cMachine Casings&r will be within the middle while the &9Darkstone Stairs &fand &9Blocks&r and &6Gilded Chiseled Polished Darkstone&r surrounds them."
+				"{image:atm:textures/questpics/mek/mek_multi_runic1.png width:150 height:100 align:center}"
+				"The second layer tops off the first with more &9Darkstone Bricks&r and &9Stairs&r. Now it includes &9Darkstone Slabs&r and &7Rune Blocks&r as well!"
+				"{image:atm:textures/questpics/mek/mek_multi_runic2.png width:150 height:100 align:center}"
+				"Doesn't get more simple than this! Just place &9Darkstone Pillars&r above the 4 outer &7Rune Blocks&r and that's all you have to do!"
+				"{image:atm:textures/questpics/mek/mek_multi_runic3.png width:150 height:100 align:center}"
+				"I was right, it doesn't get more simple. It just stays the same exact amount of simple! Repeat the previous step."
+				"{image:atm:textures/questpics/mek/mek_multi_runic4.png width:150 height:100 align:center}"
+				"To finish, place &bArcane Crystal Blocks&r above the &9Darkstone Pillars&r and a &8Quantum Injector&r above the uncovered &7Rune Block&r."
+				"{image:atm:textures/questpics/mek/mek_multi_runic5.png width:150 height:100 align:center}"
+				"Our &5&lMultiblock Machines&r will need Hatches to work though! To add them, replace the &9Darkstone Bricks&r on the first layer with the Hatches."
+			]
+			old: ["Some &5Machines&r from &5&lMekanism&r can't be Upgraded like Factories like the &9&lMetallurgic Infuser&r and &d&lEnrichment Chamber&r, they can only take &8Upgrade&r Cards. \\n\\nThe &6&lATM Devs&r saw this and wanted Players to instead of making 50 &9&lElectrolytic Separators&r they can make 1 Multiblock! \\n\\nIn order to Craft these Multiblocks though, we'll need a previous Multiblock. The &c&lAutomatic Hepheastus Forge&r. \\n\\nIt has its own Quest in &aChapter 4&r: &dCreative&r. Check it out there! "]
+		}
+	}
+	"chapters/generators.snbt": {
+		quest.062AA943A1629A86.quest_desc: {
+			new: ["You blew up the &cR&6a&ei&2n&3b&9o&5w&r &cF&6u&er&2n&3a&9c&5e&r?!?! Just lit TNT right next to it? Are you mad? That took so many Furnaces and resources and you just blew it up!!! Did you atleast get something good from it? &cR&6a&ei&2n&3b&9o&5w&r &cC&eo&3a&5l&r? Coal that lasts a very long time? Actually that's pretty worth it."]
+			old: ["You blew up the &cR&6a&ei&2n&3b&9o&5w&r &cF&6u&er&2n&3a&9c&5e&r?!?! Just lit TNT right next to it? Are you mad? That took so many Furnaces and resources and you just blew it up!!! Did you atleast get something good from it? &cR&6a&ei&2n&3b&9o&5w&r &cC&eo&3a&5l&r? Coal that lasts forever? Actually that's pretty worth it."]
+		}
+	}
+	"chapters/evilcraft.snbt": {
+		quest.56FB82DEB944F758.quest_desc: {
+			new: ["Works like the &aMace&r, except it causes an AoE explosion instead."]
+			old: ["Works like the &aMace of Distortion&r, except it causes an AoE explosion instead."]
+		}
+	}
+}

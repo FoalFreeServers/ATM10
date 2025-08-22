@@ -35,6 +35,9 @@
     "iceandfire.dragon.maxTamedDragonAge": 128,
     "iceandfire.dragon.maxBreathTimeMul": 2.0,
     "iceandfire.dragon.neutralToPlayer": false,
+    "iceandfire.dragon.enableBrushDragonScales": true,
+    "iceandfire.dragon.maxBrushScalesDropPerTime": 2,
+    "iceandfire.dragon.brushTimesMul": 1.0,
     "iceandfire.dragon.loot.skull": true,
     "iceandfire.dragon.loot.heart": true,
     "iceandfire.dragon.loot.blood": true
@@ -94,15 +97,6 @@
     "iceandfire.troll.dropWeapon": true,
     "iceandfire.troll.maxHealth": 500.0,
     "iceandfire.troll.attackDamage": 20.0
-  },
-  "myrmex": {
-    "iceandfire.myrmex.pregnantTicks": 2500,
-    "iceandfire.myrmex.eggTicks": 3000,
-    "iceandfire.myrmex.larvaTicks": 35000,
-    "iceandfire.myrmex.colonySize": 80,
-    "iceandfire.myrmex.maximumWanderRadius": 50,
-    "iceandfire.myrmex.hiveIgnoreDaytime": false,
-    "iceandfire.myrmex.baseAttackDamage": 3.0
   },
   "amphithere": {
     "iceandfire.amphithere.spawn": true,
@@ -174,8 +168,6 @@
     "iceandfire.worldgen.generateGraveYardChance": 1.0,
     "iceandfire.worldgen.generateHydraCaveChance": 1.0,
     "iceandfire.worldgen.generateMausoleumChance": 1.0,
-    "iceandfire.worldgen.generateMyemexHiveDesertChance": 1.0,
-    "iceandfire.worldgen.generateMyemexHiveJungleChance": 1.0,
     "iceandfire.worldgen.generatePixieVillageChance": 1.0,
     "iceandfire.worldgen.generateSirenIslandChance": 1.0
   },
