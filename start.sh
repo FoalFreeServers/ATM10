@@ -2,7 +2,7 @@
 
 
 # Change arguments here
-export NEOFORGE_VERSION=21.1.191
+export NEOFORGE_VERSION=21.1.201
 export JAVA=/usr/lib/jvm/java-21-openjdk-amd64/bin/java
 
 

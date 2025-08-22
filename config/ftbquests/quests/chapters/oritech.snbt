@@ -65,7 +65,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 7
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -106,14 +106,17 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0C9F9196CA49FF8D"]
+			dependencies: [
+				"0C9F9196CA49FF8D"
+				"58819CE09A648A43"
+			]
 			id: "6134991F25B25B42"
 			rewards: [{
-				count: 4
-				id: "3D2BDA118E492E13"
+				count: 2
+				id: "283D277D4EB046D3"
 				item: {
 					count: 1
-					id: "oritech:insulated_wire"
+					id: "oritech:motor"
 				}
 				type: "item"
 			}]
@@ -126,10 +129,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"0C9F9196CA49FF8D"
-				"6134991F25B25B42"
-			]
+			dependencies: ["0C9F9196CA49FF8D"]
 			id: "58819CE09A648A43"
 			rewards: [{
 				id: "114D2D6FAA32983E"
@@ -269,6 +269,7 @@
 				"5189D72ED3808DC6"
 				"1F139091C1B4E50B"
 			]
+			hide_dependent_lines: true
 			id: "7084E47579D62B52"
 			tasks: [{
 				id: "3E688A8F21CFAAC7"
@@ -412,7 +413,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["48869FD66E86EEAB"]
+			dependencies: ["3FF39D583134AA8D"]
 			id: "2A69272FD3C57924"
 			rewards: [{
 				id: "0296993AB9BC0BD8"
@@ -424,7 +425,7 @@
 				item: { count: 1, id: "oritech:machine_core_3" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -440,7 +441,7 @@
 				item: { count: 1, id: "oritech:machine_core_4" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: -2.5d
 			y: 3.5d
 		}
 		{
@@ -456,8 +457,8 @@
 				item: { count: 1, id: "oritech:machine_core_5" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.5d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6EBFA16D212A7B22"]
@@ -473,12 +474,21 @@
 				item: { count: 1, id: "oritech:machine_core_6" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.5d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0C9F9196CA49FF8D"]
 			id: "334AB2ED426108C7"
+			rewards: [{
+				count: 8
+				id: "706526C118BD9875"
+				item: {
+					count: 1
+					id: "oritech:item_pipe"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "715EE42070D676F9"
 				item: { count: 1, id: "oritech:pulverizer_block" }
@@ -499,7 +509,7 @@
 				item: { count: 4, id: "oritech:carbon_fibre_strands" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -877,7 +887,7 @@
 				item: { count: 1, id: "oritech:machine_fluid_addon" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -1.0d
 		}
 		{
@@ -889,7 +899,7 @@
 				item: { count: 1, id: "oritech:machine_capacitor_addon" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: 0.5d
 		}
 		{
@@ -901,7 +911,7 @@
 				item: { count: 1, id: "oritech:machine_acceptor_addon" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: 2.0d
 		}
 		{
@@ -1033,6 +1043,17 @@
 			}]
 			x: 11.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["46EFCAE81C09368A"]
+			id: "3FF39D583134AA8D"
+			tasks: [{
+				id: "034A90108BCE7AB1"
+				item: { count: 1, id: "oritech:machine_core_2" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
 		}
 	]
 }
