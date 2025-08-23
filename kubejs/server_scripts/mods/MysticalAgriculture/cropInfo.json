@@ -119,6 +119,7 @@
 		"enderium",
 		"vibrant_alloy",
 		"end_steel",
+		"draconium",
 		"yellorium",
 		"cyanite",
 		"niotic_crystal",
@@ -126,6 +127,7 @@
 		"uraninite",
 		"nether_star",
 		"dragon_egg",
+		"awakened_draconium",
 		"nitro_crystal"
 	],
 	"disabled": [
@@ -151,9 +153,7 @@
 		"hepatizon",
 		"terrasteel",
 		"rock_crystal",
-		"draconium",
 		"gaia_spirit",
-		"awakened_draconium",
 		"neutronium"
 	]
 }

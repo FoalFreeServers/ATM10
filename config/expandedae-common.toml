@@ -1,7 +1,6 @@
 #The maximum allowed size of an ME controller.
 #Even tho it is minimal, as you increase this value, the controller will take longer to form.
 #Note: Controllers surrounded by more than 3 others in one axis, will remain gray but do still function normally.
-#Default value: 7
 # Default: 7
 # Range: > 1
 maxControllerSize = 7
