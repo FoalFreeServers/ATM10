@@ -4,5 +4,11 @@
     "name": "PolskaSklep",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c975d473-4e1d-40ab-995e-2ae6079f7553",
+    "name": "Dinges360",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
