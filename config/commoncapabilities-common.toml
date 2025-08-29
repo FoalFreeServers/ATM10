@@ -12,4 +12,4 @@
 
 	[machine.general]
 		#The data component types that should be filtered away when checking equality.
-		ignoreDataComponentsForEqualityFilters = ["cyclopscore:energy_storage"]
+		ignoreDataComponentsForEqualityFilters = []

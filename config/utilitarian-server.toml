@@ -46,6 +46,8 @@ betterSleepEnabled = true
 noTramplingEnabled = true
 #Enable Flower Duplication. Duplicate small flowers when bonemealed just like tall flowers
 flowerDuplicationEnabled = true
+#Enable to let mobs despawn despite them holding items
+despawnWhenHoldingItems = true
 #When true using a wind charge will replenish some of the players air supply
 windChargeAirSupplyEnabled = true
 #How much air should a charge refill. Full air supply for a player is 300.

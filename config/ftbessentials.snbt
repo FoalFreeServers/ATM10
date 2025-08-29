@@ -81,13 +81,13 @@
 		# Allows users to access an Anvil GUI without needing an Anvil.
 		anvil: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows users to access a Crafting Table GUI without needing a Crafting Table.
 		crafting: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows users to access their ender chest, as well as admins to manage other players' ender chests.
@@ -117,7 +117,7 @@
 		# Allows users to list nearby players, sorted by distance
 		near: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows users to change their display name, as well as admins to change nicknames for other users
@@ -135,13 +135,13 @@
 		# Allows users to access a Smithing Table GUI without needing a Smithing Table.
 		smithing: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows users to access a Stonecutter GUI without needing a Stonecutter.
 		stonecutter: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Enables usage of a trash can inventory, which can be used to void unneeded items
@@ -168,7 +168,7 @@
 			cooldown: 30
 			
 			# Default: true
-			enabled: false
+			enabled: true
 			
 			# Max size of the teleport history. This limits how many times you can use /back
 			# You can override this with FTB Ranks using ftbessentials.back.max
@@ -208,7 +208,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: false
+			enabled: true
 			
 			# The minimum Y value for homes, as set by the /sethome command
 			# Default: -2147483648
@@ -251,7 +251,7 @@
 			# You can override this with FTB Ranks using ftbessentials.rtp.cooldown
 			# Default: 600
 			# Range: 0 ~ 604800
-			cooldown: 86400
+			cooldown: 600
 			
 			# Blacklisted dimension ID's for /rtp (player *must not* be in any of these dimensions)
 			# Wildcarded dimensions (e.g. 'somemod:*') are supported
@@ -269,7 +269,7 @@
 			# /rtp max distance from spawn point
 			# Default: 25000
 			# Range: 0 ~ 30000000
-			max_distance: 9000
+			max_distance: 25000
 			
 			# Number of tries before /rtp gives up
 			# Default: 100
@@ -295,7 +295,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: false
+			enabled: true
 			
 			# Warm-up time before /spawn command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.spawn.warmup
@@ -314,7 +314,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: false
+			enabled: true
 			
 			# Warm-up time before /tpa command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.tpa.warmup
@@ -344,7 +344,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: false
+			enabled: true
 			
 			# Warm-up time before /warp command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.warp.warmup
