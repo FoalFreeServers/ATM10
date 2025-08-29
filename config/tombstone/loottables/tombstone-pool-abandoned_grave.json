@@ -1,7 +1,7 @@
 {
   "rolls": {
-    "min": 5.0,
-    "max": 10.0,
+    "min": 3.0,
+    "max": 5.0,
     "type": "minecraft:uniform"
   },
   "bonus_rolls": 0.0,

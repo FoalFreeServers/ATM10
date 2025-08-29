@@ -22,6 +22,6 @@
       "rates are based on how Mystical Agriculture is configured.                      "
     ],
     "//default": true,
-    "value": true
+    "value": false
   }
 }

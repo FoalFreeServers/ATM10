@@ -19,7 +19,7 @@
     "villager_tower": {
       "activated": true,
       "separation": 16,
-      "spacing": 29
+      "spacing": 26
     },
     "lighthouse": {
       "activated": true,
@@ -28,32 +28,32 @@
     },
     "air_balloon": {
       "activated": true,
-      "separation": 10,
-      "spacing": 20
+      "separation": 12,
+      "spacing": 22
     },
     "killer_bunny_castle": {
       "activated": true,
       "separation": 22,
-      "spacing": 30
+      "spacing": 32
     },
     "jungle_pyramid": {
       "activated": true,
-      "separation": 14,
-      "spacing": 16
+      "separation": 22,
+      "spacing": 25
     },
     "abandoned_church": {
       "activated": true,
-      "separation": 14,
-      "spacing": 26
+      "separation": 20,
+      "spacing": 33
+    },
+    "sphinx": {
+      "activated": true,
+      "separation": 16,
+      "spacing": 24
     },
     "barn_house": {
       "activated": true,
       "separation": 16,
-      "spacing": 28
-    },
-    "pirate_ship": {
-      "activated": true,
-      "separation": 14,
       "spacing": 32
     },
     "pillager_mines": {
@@ -61,10 +61,15 @@
       "separation": 27,
       "spacing": 40
     },
+    "pirate_ship": {
+      "activated": true,
+      "separation": 16,
+      "spacing": 32
+    },
     "tavern": {
       "activated": true,
-      "separation": 13,
-      "spacing": 30
+      "separation": 16,
+      "spacing": 26
     },
     "moai": {
       "activated": true,
@@ -73,18 +78,18 @@
     },
     "the_castle_in_the_sky": {
       "activated": true,
-      "separation": 15,
-      "spacing": 23
+      "separation": 22,
+      "spacing": 32
     },
     "ice_tower": {
       "activated": true,
-      "separation": 14,
-      "spacing": 22
+      "separation": 20,
+      "spacing": 28
     },
     "villager_market": {
       "activated": true,
       "separation": 16,
-      "spacing": 30
+      "spacing": 32
     },
     "big_pyramid": {
       "activated": true,
@@ -93,13 +98,8 @@
     },
     "pillager_factory": {
       "activated": true,
-      "separation": 14,
-      "spacing": 30
-    },
-    "sphinx": {
-      "activated": true,
       "separation": 16,
-      "spacing": 24
+      "spacing": 34
     }
   }
 }

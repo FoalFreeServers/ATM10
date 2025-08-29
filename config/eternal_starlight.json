@@ -109,7 +109,7 @@
       "canSpawn": true
     },
     "shimmerLacewing": {
-      "maxHealth": 20.0,
+      "maxHealth": 5.0,
       "armor": 0.0,
       "canSpawn": true
     },

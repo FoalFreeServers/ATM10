@@ -345,7 +345,6 @@
 		"Dissolution Chamber, &l&7Industrial Foregoing&r tarafından eklenen bir Makine. Aynı zamanda &3Vibranium&r ve &5Unobtainium&r'u da bununla birleştireceğiz. \\n\\nMob Slaughter Factory'den elde edeceğin &dPink Slime&r'a ihtiyacın olacak. Bu Makine de IF tarafından eklendi. \\n\\nAyrıca Piglin Köyünde yaygın olan ve ayriyeten &b&lOther&r'da bulunan Ruh Lav'ına da ihtiyacın olacak. \\n\\nBunlardan sonra Külçelerini ve Piglich Kalplerini sırasıyla koyman, ardından güçlendirmen gerekecek. Bu işlemlerden sonrada alaşımın üretilmiş olacak!\\n"
 		"{ \"text\": \"INDUSTRIAL FOREGOING GÖREV SERİSİ\", \"color\": \"#55FF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"193F91842D2ED7D9\" } }"
 	]
-	quest.15DE3BF0CBD8E0B4.quest_desc: ["İlk aletini yapmak için Pickaxe Head parçanı al ve bir üretim ızgarasına yerleştir.\\n\\nTam bir kazma oluşturmak için, üretim ızgarasına bir Çubuk ekleyebilir veya bunun yerine bir &9Tool Rod Template&r kullanarak kendi özel sapını oluşturabilirsin.\\n\\nNot: Template'leri her zaman arayabilir ve ardından JEI'de kullanımlarını kontrol et'e basabilir, sonrasında da “Gear Crafting” sekmesine gidebilirsin. Bu sana ekipman parçalarını nasıl yapacağını gösterecektir."]
 	quest.15FEA03A2CDBA33B.quest_desc: ["&b&lOther&r yıllar içinde onlarca değişiklik gördü ama her zaman maceraların diyarı oldu! \\n\\nOnlarca yeni biyom, blok ve tabii ki yapılar var! \\n\\nYapılar şunlardır: Piglin Köyü, Antik Piramit ve Zindan. Hepsi de harika ganimetler içeriyor ve bazı şeyler yapılarına özgü! \\n\\nAyrıca &3Vibranium&r (ve diğer cevherler!) için madencilik yapabilir veya yapılarda daha iyisini bulabilirsin! \\n\\nYine de &b&lOther&r'da Maden Ocakları (Quarry) kuramazsın ya da çok sayıda blok yerleştiremezsin, burada hiçbir şekilde hile yapamazsın."]
 	quest.15FEA03A2CDBA33B.title: "&l&bOther&r"
 	quest.161878AB4236C58B.quest_subtitle: "&f6.5 &cSaldırı Hasarı"
@@ -1092,7 +1091,6 @@
 		"{image:atm:textures/questpics/allthemodium/all_3.png width:100 height:100 align:center}"
 	]
 	quest.4A079D40C0AF6BC3.title: "&5Unobtainium Külçesi&r"
-	quest.4A0DA7FC43EDC532.quest_desc: ["Bataklıkların içinde hafif bir sıcaklık artışı hissedebilirsin... Bunun nedeni orada yatan &9Hydra&r! \\n\\nOnu bir şekilde öldürdüğünde Trophy'sini alacaksın. \\n\\nİyi şanslar &oHerkül&r!"]
 	quest.4A4C71C43519D5FE.quest_desc: [
 		"Nether'in patronunu çağırmak için önce birkaç eşya toplamamız gerekiyor. "
 		""
@@ -1137,8 +1135,6 @@
 	quest.4CE6EB54B12EF6C5.quest_subtitle: "&f10 &cSaldırı Hasarı"
 	quest.4D07B0A4A2E77CDA.quest_desc: ["En fazla varlık, bir canavar çağırıcı tarafından ortaya çıkarılabilecek ve tutulabilecek yaratık miktarıdır. Eğer sadece 6 en fazla varlık varsa, 6 yaratık zaten ortaya çıkmışsa, onlar ölene veya taşınana kadar daha fazla yaratık ortaya çıkmayacaktır. Her Ghast Gözyaşı 2 Varlık yukarı veya aşağı oynatır. En fazla 16 Varlık ve En düşük 1 Varlık."]
 	quest.4D07B0A4A2E77CDA.title: "En Fazla Varlık"
-	quest.4D135CE350C59120.quest_desc: ["&dEjderha Yumurtası&r &2&lMinecraft&r'ın olmazsa olmazıdır... peki bunun içi neden boş? \\n\\n&5Draconic Arı&r'lardan elde ettiğimiz eşyalarla &5Aktif Olmayan Ejderha Yumurtası&r yapabilirsin. Çiçek olarak &dEjderha Yumurtalarına&r kim ihtiyaç duyar ki; &d&lEnd&r'de yaşamıyorlarsa. \\n\\nÜzerinde &dEjderha Nefesi&r kullanarak onu normal bir &dEjderha Yumurtası&r haline dönüştürebilir ya da &6&lYıldız&r yapmak için kullanabilirsin."]
-	quest.4D135CE350C59120.title: "&5Aktif Olmayan Ejderha Yumurtası"
 	quest.4D3379D38237F830.quest_desc: ["&bBunları&r Ayağına takarak bir mucize gerçekleştirebilirsin! &9Su&r üzerinde yürümek! \\n\\nAslında &9Su&r üzerinde koşmak. &9Su&r üzerinde koşabilmek için Koşuyor olman gerekir. Koşmayı bıraktığında Batmaya başlarsın."]
 	quest.4D7D4C718837BCA5.quest_desc: ["Minyatür Nether Portalı tarifinin ana parçası &3Usta Görüş'ün Cehennem Kitaplığı&r'dır. Genellikle hangi Büyüleri alacağını görmek için kullanılır ama biz Büyü için değil &6&lATM Yıldızı&r için buradayız. \\n\\nSadece birkaç Kitaplık'tan elde edebileceğin bir &4Aşılama Yapılmış Cehennem Kitaplığı&r'na büyü yapman gerekecek. Daha sonra onu daha da yükseltmek için, onunla üretim yapman gerekiyor!  \\n\\nBundan sonra Minyatür Nether Portalı'nı yapabilirsin. Hayır içinden geçemezsin, çünkü çok büyüksün!"]
 	quest.4DCEC4B97E24B6F1.quest_subtitle: "&f17 &cSaldırı Hasarı"
@@ -1231,8 +1227,6 @@
 	quest.52B61FB01D7C12A4.title: "&2Prudentium Zırh"
 	quest.52CDB46F6CBF007B.quest_subtitle: "Bunu kazıyor musun?"
 	quest.52E59FCB39D66BCF.quest_desc: ["\"Pasif Güç\" için en iyi seçeneklerden biri olan &9Termo Jeneratör&r, bir &cIsı Kaynağı&r üzerine yerleştirildiğinde ve sürekli su verildiğinde FE üretecektir.\\n\\nŞu anda bunu üzerine yerleştirebileceğin 3 blok var: en az üreten Magma bloğu, biraz daha iyi olan lav kaynağı bloğu veya en fazla ısıyı sağlayan &cAlevli Kristal Bloğu&r. "]
-	quest.52EB902E76829EBB.quest_desc: ["Silent Gear, ekipman üretimini kolaylaştıran bir ekipman modudur.\\n\\nHer ekipman parçası özelleştirilebilir, özel özelliklerle yükseltmene veya hareket halindeyken onarmana olanak tanır!\\n\\nAyrıca Demir Kazma gibi vanilla aletlerini üretim ızgarasına koyarak, Silent Gear Demir Kazma'ya dönüştürebilirsin!"]
-	quest.52EB902E76829EBB.quest_subtitle: "Silahlar, Aletler ve Zırhlar"
 	quest.535525EA4DF4AB59.quest_desc: ["&cOyuncu Vericisi&r, Bağlanmış Karta sahip herkese enerji aktaracaktır. Buna envanterlerdeki tüm zırh, alet ve eşyalara enerji aktarmak da dahildir. \\n\\n&cNitro Kademe&r, &6&lYıldız&r için gereklidir. Bu da elbette en son ve elde edilmesi en zor olandır."]
 	quest.535525EA4DF4AB59.title: "&cNitro Oyuncu Vericisi"
 	quest.537B39B42C7D21ED.quest_desc: ["&l&aOh The Biomes We've Gone&r tarafından eklenen yeni Biyomlarda 4 yeni Taş türü bulabilirsin: Dacite, Kırmızı Taş, Yosunlu Taş ve Kayalık Taşı. \\n\\nŞimdi Kayalık Taşı'nı diğer taşlardan ayıran ve ona Kayalık ünvanını kazandıran şeyin ne olduğunu bilmek istiyorum."]
@@ -1436,7 +1430,6 @@
 	quest.623796B1D7981E59.quest_subtitle: "Kemer"
 	quest.62622137648A4F56.quest_desc: ["Cevherlerini bir Eşya ile kazıp diğer Eşya ile eritmek zorunda kalmaktan hoşlanmıyor musun? Artık &7Pickaxe Heater&r ile her zamankinden daha tembel olabilirsin!\\n\\n&7Pickaxe Heater&r takılıyken, Kazdığın Cevherler otomatik olarak Eritilecektir!\\n\\nCevher İşleme kurulumu istiyorsan dikkatli olmak isteyebilirsin."]
 	quest.62622137648A4F56.quest_subtitle: "Eller"
-	quest.6299B38E3A42DD40.quest_desc: ["Kafa karıştırıcı Carminite Tower'ların tepesinde &cUr-Ghast&r başka bir av bekliyor. \\n\\nTower'lar Dark Forest'ın içindedir. Onlara girebilmek için &9Hydra&r'yı öldürmen gerekecek! \\n\\nEğer &cUr-Ghast&r'ı gökten düşürebilirsen, onun Trophy'sini alabilirsin!"]
 	quest.62B5A84753ADFC35.quest_subtitle: "8 Kuru Koyu Pembe Blok"
 	quest.62DDE5B1287BEB36.quest_desc: ["&6&lATM Yıldızı&r'nın göz alıcı iç kısımlarından bir diğeri de &6Awakened &5Unobtainium&f-&3Vibranium&r Alaşımı Bloğudur ki ben buna sadece &6Uyandırılmış Alaşım&r bloğu diyeceğim. \\nBunu elde etmek için bir Yıldız Sunağı çoklu bloğuna ihtiyacın olacak (daha fazla bilgi için Yıldız Üretimi Görevine göz at!) \\n\\nOrada &5Unobtainium&f-&3Vibranium&r Bloğunu, 4 Kırılmazlık I Kitabını, 4 &6Uyandırılmış Supremium Değerli Taşını&r ve 4 &6Uyandırılmış Supermium Özünü&r içine koyman gerekiyor. \\n\\nDaha sonra ona 85 Milyon FE vermen gerekecek... Bundan sonra, Alaşımın artık Awakened olmalı!"]
 	quest.62DDE5B1287BEB36.title: "&6Awakened &5Unobtainium&f-&3Vibranium&r Alaşımı Bloğu"
@@ -1457,9 +1450,6 @@
 	quest.6431A384DDFBF439.title: "Ağ Araçları"
 	quest.6451D5022BCB5E7E.quest_desc: ["Eternal Steak, bir dakika yanlış mod. &cInfinity Ham&r sonsuz bir besin kaynağı olarak çalışır. Kemikteki tüm Eti ye. Bittiğinde bir süre sonra Yenilenecektir. Karnını daha fazla doldurmak için onu yükseltebilirsin.  \\n \\n&cInfinity Ham&r'ın İkinci Yeteneği onu İksirlerle marine etmektir. Bunu yaptığında, &cHam&r'dan her yediğinde o İksir Etkisini elde edersin. Ancak tüm Eti yersen Etkiyi kaybedersin."]
 	quest.6451D5022BCB5E7E.quest_subtitle: "Maden Ocaklarında veya Stronghold'larda Bulunur"
-	quest.64AB1E133E218173.quest_desc: ["Template Board'ları sonsuza kadar kullanamazsın!\\n\\nTaslak Kağıdı, Template Board'ların aksine yeniden kullanılabilen Taslaklar yapmak için kullanılır."]
-	quest.64AB1E133E218173.quest_subtitle: "Şematik Yapıcı"
-	quest.64AB1E133E218173.title: "&9Taslak Kağıdı"
 	quest.64EED65F80A91D9E.quest_subtitle: "Kademe: &b3"
 	quest.654F5C84114A31A1.quest_desc: ["Çok basit ve ucuz &e&lIron's Spells&r Zırhı. Oyun başlangıcı için faydalı!"]
 	quest.654F5C84114A31A1.title: "&4Scarecrow Kıyafetleri"
@@ -1520,7 +1510,6 @@
 	quest.68DABFFB6B3E1A57.title: "Göz Zırh Süslemesi"
 	quest.68E6AE1B9EBCEFFF.title: "&3Vibranium Topuz"
 	quest.69383DA579901E7E.quest_subtitle: "Sana şunu sormama izin ver (Let me Axe you this)"
-	quest.694D7CD9EC663355.quest_subtitle: "Gürz, bu ilgini çekti mi?"
 	quest.696E063016CAD1B9.quest_desc: ["Sırt Çantana, Chipped Çalışma Tezgahları için üretim GUI'leri ekler."]
 	quest.698A959C9E449592.quest_desc: ["İlerlemenin bir sonraki adımı Demir Kazma yapmaktır.\\n\\nBu kazma, Elmas da dahil olmak üzere oyundaki bazı nadir cevherleri kazabilir!"]
 	quest.698A959C9E449592.title: "&aDemir&r Kazma"
@@ -1624,7 +1613,6 @@
 	quest.6FF54B5D953E1797.quest_desc: ["Çoğu oyundaki '&4Berserk&r' terimini biliyorsan, bu &cRage Glove&r'un ne yaptığını anlamana yardımcı olacaktır. Bilmiyorsan, &4Berserk&r'in temel özellikleri, birisi düşük canı olduğunda veya çok fazla hasar aldığında, genellikle daha yüksek hasar verir ve daha hızlı olur. İlk Yetenekte olan şey budur, hasar aldığında daha yüksek hasar ve hız için değiştirilebilecek puanlar biriktirirsin! \\n \\nİkinci Yetenek, bunu pasif olarak yapar ve kaybettiğin sağlık miktarı başına sana Yenilenme verir. \\n \\nÜçüncü Yetenek aktif bir yetenektir, onu kullanırken (Alt Tab) baktığın herhangi bir yaratığa hamle yapar ve saldırırsın. Vurulduğunda onları &cAlev Alev&r yakacak, onlara Kanama verecek ve birikmiş &4Berserk&r puanlarıyla onunla ekstra hasar verebileceksin!"]
 	quest.6FF54B5D953E1797.quest_subtitle: "Yıkık Geçitler, Nether Kaleleri ve Bastion'larda Bulunur"
 	quest.700F3FF7C23D0C0F.quest_desc: ["&5Ender Hücresi&r, &7Ender Ağındaki&r bir kanal için güç depolayacaktır. Ağın güç kapasitesini artırmak için, arayüzünü açmak üzere Ender Hücresine sağ tıkla, ardından toplam kapasiteyi artırmak için &aBatarya&r ya da &9Enerji Hücresi&r ekle."]
-	quest.7043CDA7EBFAF560.quest_desc: ["Coating Smithing Template'ler ekipman kaplamak için kullanılır. Diğer Demirci Şablonları gibi üretilerek çoğaltılabilirler."]
 	quest.70902EF96F060672.quest_desc: ["Bu yükseltme, Çekmecelerin her tarafa Redstone sinyali yaymasını sağlar. Sinyal gücü, ne kadar dolu/boş olduğunu gösterir.\\n\\nÇok yuvalı Çekmeceler için, yükseltme hangi yuvanın izleneceğine göre yapılandırılabilir.\\n\\n0 - boş anlamına gelir.\\n15 - dolu anlamına gelir."]
 	quest.70B6C9409AE69284.quest_desc: ["Doğa'nın Pusulası sana arayabileceğin biyomların bir listesini verir.\\n\\nBir biyom seç, ardından 'Ara'ya bas. Sol üstte bazı bilgiler göreceksin ve pusula, biyomun yönünü gösterecektir.\\n\\nExplorer's Compass da aynı şekilde çalışır ancak biyomlar yerine yapılar için kullanılır."]
 	quest.70B6C9409AE69284.quest_subtitle: "Biyomları/Yapıları Bulmaya Yardımcı Olur"
@@ -1771,7 +1759,6 @@
 	quest.784D6D11C4F41215.quest_subtitle: "&f6.5 &cSaldırı Hasarı"
 	quest.785951190FFDAA21.quest_desc: ["Sırt Çantasındaki istif boyutunu 4 artırır."]
 	quest.785951190FFDAA21.title: "&eİstif Yükseltmesi Kademe 2"
-	quest.7860FD3D3273351F.quest_subtitle: "Taslakları Depolamak!"
 	quest.789AF6D0A6321945.quest_desc: [
 		"&l&3Eser&r'lerden tek ve en önemlisi! En güçlüsü! En tehlikeli olanı!"
 		"{@pagebreak}"
@@ -1823,8 +1810,6 @@
 	]
 	quest.7B500E0577BDFF8F.quest_desc: ["&6Bronz&r; &6Bakır&r ve Kalay'ın birleşimidir. \\n\\nBu alaşımı yapmanın onlarca farklı yolu var. Sana bunun yapımı için doğru yolu söylemeyeceğim."]
 	quest.7B500E0577BDFF8F.title: "&6Bronz Zırh"
-	quest.7B690431CF1B87D0.quest_desc: ["Oyunun başlarında ekipman üretimine başlamak için, ilk Template'imizi oluşturmak üzere bazı &9Template Board&r'lar yapmamız gerekecek.\\n\\nTemplate'ler, alet parçaları oluşturmak için tek kullanımlık \"taslaklardır\". Temel Template Board'larını kullanarak kendine bir &aPickaxe Template&r yap.\\n\\nPickaxe Template'i çoğu malzemenin 3 tanesi ile birleştirirsen, bir Pickaxe Head oluşturabilirsin.\\n\\nNot: Malzeme, ana tür ile birlikte bir Silent Gear malzeme araç ipucuna sahip olmalıdır."]
-	quest.7B690431CF1B87D0.title: "Kazma Başlıkları"
 	quest.7B7D1F0CB326B28F.quest_desc: ["&bME GÇ Bağlantı Noktası&f, bir ME ağının depolama içeriğinin ME hücreleri ve depolama veriyollarına bağlı harici konteynerler gibi farklı depolama ortamları arasında hızlı bir şekilde yeniden düzenlenmesini sağlar.\\n\\nSoldaki giriş yuvasına bir hücre yerleştirildiğinde, GÇ Bağlantı Noktası, hücreyi diğer ME depolarına boşaltmak veya (ideal olarak bölümlenmiş) hücreyi diğer depolara yayılmış belirli eşyalarla doldurmak için değiştirilebilir."]
 	quest.7B7D1F0CB326B28F.quest_subtitle: "Disk Birleştirme"
 	quest.7BC616DDB5933479.quest_desc: ["Bu, bir &5Blood Vial&r ve Scroll'lar için normal malzemelerle oluşturulabilir. \\nSeviye 10 ve &6Legendary&r olduğundan emin olman gerekecek, bu da onu yükseltebileceğin anlamına gelir."]
@@ -1916,7 +1901,6 @@
 	task.074BDA389D0FB989.title: "Chipped Bakır"
 	task.08DA73B1AC17E5F5.title: "Üretim Depolaması"
 	task.0AFA64F1025569A2.title: "Netherit Ekipman"
-	task.0B10BF3641629974.title: "Aletler"
 	task.0BAEC53DD32C9870.title: "Productive Trees Kütükleri"
 	task.0BFAF56214875C90.title: "Allthemodium Büyücü Zırhı"
 	task.0D5203048B6E068C.title: "Trapped Trader Carpet'lar"
@@ -1966,7 +1950,6 @@
 	task.2962DF63EE602AD6.title: "Mekanism Demir Kazmaları"
 	task.298EA976A7627731.title: "Antik Şehrin Yerini Tespit Et"
 	task.2A7CD3F14D3DC7C5.title: "Unobtainium Zırhı"
-	task.2ADE9DBE9448AC7F.title: "Silent Gear Kazmaları"
 	task.2BECEC3EFA8F6DA3.title: "Chipped Taşları"
 	task.2CE553B282962E01.title: "Kovalar"
 	task.2E04D0F6EEABE677.title: "Çekmeceler"
@@ -1974,7 +1957,6 @@
 	task.2E49798B39BAA192.title: "Güneş Enerjisi"
 	task.2E92D23F149C142D.title: "Chipped Metalleri"
 	task.2F28B803C75DA3B2.title: "1 Yaşlı Gardiyan Öldür"
-	task.2FEC915DC58F30C4.title: "Tamir Çantaları"
 	task.301665A6315B569C.title: "Depolama Denetleyicileri"
 	task.30921D2007B35206.title: "Keşif Modu Elmas Kazmaları"
 	task.3209E46C9B05C163.title: "Elmas Ekipmanlar"
@@ -2007,7 +1989,6 @@
 	task.484375E0BC0F9177.title: "Arkadaşlarımızdan Yapılar"
 	task.485E17B9E80D5DFF.title: "Occultism Kazmaları"
 	task.4892144C32DCEB55.title: "Boyalı Tahtalar"
-	task.498AA33867046334.title: "Zırhlar"
 	task.49F387C7EAD579A2.title: "Macaw Tamamlandı"
 	task.49F46466DB8EDD61.title: "Demir Sandıklar"
 	task.4B13D48FF9D2530E.title: "XyCraft Işıkları"
