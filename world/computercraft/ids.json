@@ -1,11 +1,11 @@
 {
-  "computer": 10,
-  "peripheral.inductionPort": 0,
-  "peripheral.turbineValve": 0,
+  "computer": 13,
+  "peripheral.inductionPort": 2,
+  "peripheral.turbineValve": 3,
   "peripheral.fissionReactorLogicAdapter": 1,
   "peripheral.fissionReactorPort": 1,
-  "peripheral.monitor": 1,
-  "peripheral.computer": 1,
+  "peripheral.monitor": 4,
+  "peripheral.computer": 7,
   "disk": 0,
-  "peripheral.drive": 0
+  "peripheral.drive": 2
 }
