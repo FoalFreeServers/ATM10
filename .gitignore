@@ -23,6 +23,7 @@
 minecraft.pid
 
 # World data
+/dynamic-data-pack-cache/
 /patchouli_books/
 /woot/
 /world/advancements/
