@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:crimson_planks"
+  },
+  "result": {
+    "id": "mcwroofs:crimson_planks_upper_steep_roof",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

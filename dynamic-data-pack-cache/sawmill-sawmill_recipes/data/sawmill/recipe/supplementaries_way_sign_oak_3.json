@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "regions_unexplored:alpha_planks"
+  },
+  "result": {
+    "id": "supplementaries:way_sign_oak",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

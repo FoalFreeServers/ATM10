@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "regions_unexplored:alpha_planks"
+  },
+  "result": {
+    "id": "supplementaries:allthemodium/way_sign_demonic",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

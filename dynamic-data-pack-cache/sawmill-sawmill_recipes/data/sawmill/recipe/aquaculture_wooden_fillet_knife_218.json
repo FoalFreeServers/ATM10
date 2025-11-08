@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:blackwood_log"
+    },
+    {
+      "item": "regions_unexplored:blackwood_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_blackwood_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_blackwood_wood"
+    }
+  ],
+  "result": {
+    "id": "aquaculture:wooden_fillet_knife",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

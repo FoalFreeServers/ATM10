@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomeswevegone:jacaranda_log"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_wood"
+    },
+    {
+      "item": "biomeswevegone:stripped_jacaranda_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_jacaranda_wood"
+    }
+  ],
+  "result": {
+    "id": "aquaculture:wooden_fillet_knife",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

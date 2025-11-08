@@ -1,0 +1,11 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "item": "regions_unexplored:alpha_log"
+  },
+  "result": {
+    "id": "mcwstairs:oak_balcony",
+    "count": 4
+  },
+  "type": "sawmill:woodcutting"
+}

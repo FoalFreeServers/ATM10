@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:magnolia_log"
+    },
+    {
+      "item": "regions_unexplored:magnolia_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_magnolia_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_magnolia_wood"
+    }
+  ],
+  "result": {
+    "id": "regions_unexplored:magnolia_planks",
+    "count": 4
+  },
+  "type": "sawmill:woodcutting"
+}

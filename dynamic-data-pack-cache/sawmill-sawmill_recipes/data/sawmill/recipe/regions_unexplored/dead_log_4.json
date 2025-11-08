@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "regions_unexplored:dead_wood"
+  },
+  "result": {
+    "id": "regions_unexplored:stripped_dead_wood",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

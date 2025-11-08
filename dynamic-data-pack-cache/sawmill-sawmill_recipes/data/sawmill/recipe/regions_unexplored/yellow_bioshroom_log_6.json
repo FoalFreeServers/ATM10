@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "regions_unexplored:stripped_yellow_bioshroom_hyphae"
+  },
+  "result": {
+    "id": "regions_unexplored:stripped_yellow_bioshroom_stem",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

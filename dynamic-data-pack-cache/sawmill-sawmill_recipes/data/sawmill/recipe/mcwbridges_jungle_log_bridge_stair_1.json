@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:jungle_planks"
+  },
+  "result": {
+    "id": "mcwbridges:jungle_log_bridge_stair",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

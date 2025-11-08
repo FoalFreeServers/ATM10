@@ -1,0 +1,23 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:willow_log"
+    },
+    {
+      "item": "regions_unexplored:willow_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_willow_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_willow_wood"
+    }
+  ],
+  "result": {
+    "id": "oritech:machine_core_1",
+    "count": 1
+  },
+  "ingredient_count": 3,
+  "type": "sawmill:woodcutting"
+}

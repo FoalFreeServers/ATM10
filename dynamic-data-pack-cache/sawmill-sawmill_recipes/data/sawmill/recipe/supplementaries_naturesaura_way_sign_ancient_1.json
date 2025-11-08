@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:oak_planks"
+  },
+  "result": {
+    "id": "supplementaries:naturesaura/way_sign_ancient",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

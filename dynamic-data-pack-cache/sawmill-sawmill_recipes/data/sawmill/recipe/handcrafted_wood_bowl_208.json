@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:larch_log"
+    },
+    {
+      "item": "regions_unexplored:larch_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_larch_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_larch_wood"
+    }
+  ],
+  "result": {
+    "id": "handcrafted:wood_bowl",
+    "count": 6
+  },
+  "type": "sawmill:woodcutting"
+}

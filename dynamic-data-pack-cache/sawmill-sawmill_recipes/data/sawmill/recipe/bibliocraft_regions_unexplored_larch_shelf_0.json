@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:larch_log"
+    },
+    {
+      "item": "regions_unexplored:larch_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_larch_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_larch_wood"
+    }
+  ],
+  "result": {
+    "id": "bibliocraft:regions_unexplored_larch_shelf",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

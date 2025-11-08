@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:cobalt_log"
+    },
+    {
+      "item": "regions_unexplored:cobalt_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_cobalt_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_cobalt_wood"
+    }
+  ],
+  "result": {
+    "id": "supplementaries:item_shelf",
+    "count": 6
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,11 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "tag": "c:logs/archwood"
+  },
+  "result": {
+    "id": "bibliocraft:ars_nouveau_archwood_shelf",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

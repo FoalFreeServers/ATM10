@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "regions_unexplored:stripped_larch_wood"
+  },
+  "result": {
+    "id": "regions_unexplored:stripped_larch_log",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

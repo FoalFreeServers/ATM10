@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomeswevegone:pine_log"
+    },
+    {
+      "item": "biomeswevegone:pine_wood"
+    },
+    {
+      "item": "biomeswevegone:stripped_pine_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_pine_wood"
+    }
+  ],
+  "result": {
+    "id": "handcrafted:wood_cup",
+    "count": 8
+  },
+  "type": "sawmill:woodcutting"
+}

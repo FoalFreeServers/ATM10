@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:warped_planks"
+  },
+  "result": {
+    "id": "mcwwindows:warped_stem_parapet",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

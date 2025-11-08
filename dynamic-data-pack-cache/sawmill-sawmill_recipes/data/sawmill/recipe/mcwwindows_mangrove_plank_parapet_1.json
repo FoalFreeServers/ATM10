@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:mangrove_planks"
+  },
+  "result": {
+    "id": "mcwwindows:mangrove_plank_parapet",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

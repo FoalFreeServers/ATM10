@@ -1,0 +1,11 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "item": "regions_unexplored:alpha_log"
+  },
+  "result": {
+    "id": "supplementaries:forbidden_arcanus/way_sign_fungyss",
+    "count": 4
+  },
+  "type": "sawmill:woodcutting"
+}

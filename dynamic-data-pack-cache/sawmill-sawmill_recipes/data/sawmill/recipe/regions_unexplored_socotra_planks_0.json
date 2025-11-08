@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:socotra_log"
+    },
+    {
+      "item": "regions_unexplored:socotra_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_socotra_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_socotra_wood"
+    }
+  ],
+  "result": {
+    "id": "regions_unexplored:socotra_planks",
+    "count": 4
+  },
+  "type": "sawmill:woodcutting"
+}

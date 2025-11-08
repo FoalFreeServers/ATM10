@@ -1,0 +1,11 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "item": "cataclysm:chorus_stem"
+  },
+  "result": {
+    "id": "minecraft:bowl",
+    "count": 3
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:cypress_log"
+    },
+    {
+      "item": "regions_unexplored:cypress_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_cypress_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_cypress_wood"
+    }
+  ],
+  "result": {
+    "id": "silentgear:axe",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

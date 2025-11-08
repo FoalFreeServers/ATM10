@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:crimson_planks"
+  },
+  "result": {
+    "id": "mcwwindows:crimson_curtain_rod",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

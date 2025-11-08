@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:dark_oak_planks"
+  },
+  "result": {
+    "id": "mcwpaths:dark_oak_planks_path",
+    "count": 6
+  },
+  "type": "sawmill:woodcutting"
+}

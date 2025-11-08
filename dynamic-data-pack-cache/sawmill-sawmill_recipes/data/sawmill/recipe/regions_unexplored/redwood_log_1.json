@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "regions_unexplored:redwood_log"
+  },
+  "result": {
+    "id": "regions_unexplored:stripped_redwood_wood",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:pink_bioshroom_stem"
+    },
+    {
+      "item": "regions_unexplored:pink_bioshroom_hyphae"
+    },
+    {
+      "item": "regions_unexplored:stripped_pink_bioshroom_stem"
+    },
+    {
+      "item": "regions_unexplored:stripped_pink_bioshroom_hyphae"
+    }
+  ],
+  "result": {
+    "id": "handcrafted:wood_cup",
+    "count": 8
+  },
+  "type": "sawmill:woodcutting"
+}

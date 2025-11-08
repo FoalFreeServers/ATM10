@@ -1,0 +1,11 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "item": "iceandfire:dreadwood_log"
+  },
+  "result": {
+    "id": "iceandfire:dreadwood_planks",
+    "count": 4
+  },
+  "type": "sawmill:woodcutting"
+}

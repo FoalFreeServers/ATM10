@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:oak_planks"
+  },
+  "result": {
+    "id": "supplementaries:evilcraft/way_sign_undead",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

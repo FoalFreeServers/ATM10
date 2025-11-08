@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:spruce_planks"
+  },
+  "result": {
+    "id": "mcwstairs:spruce_platform",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:pine_log"
+    },
+    {
+      "item": "regions_unexplored:pine_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_pine_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_pine_wood"
+    }
+  ],
+  "result": {
+    "id": "regions_unexplored:pine_planks",
+    "count": 4
+  },
+  "type": "sawmill:woodcutting"
+}

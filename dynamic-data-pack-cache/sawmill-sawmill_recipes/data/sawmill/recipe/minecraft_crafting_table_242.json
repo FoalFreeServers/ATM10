@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:kapok_log"
+    },
+    {
+      "item": "regions_unexplored:kapok_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_kapok_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_kapok_wood"
+    }
+  ],
+  "result": {
+    "id": "minecraft:crafting_table",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

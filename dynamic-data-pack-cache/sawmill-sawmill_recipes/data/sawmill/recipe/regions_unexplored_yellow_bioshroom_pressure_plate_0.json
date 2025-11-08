@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:yellow_bioshroom_stem"
+    },
+    {
+      "item": "regions_unexplored:yellow_bioshroom_hyphae"
+    },
+    {
+      "item": "regions_unexplored:stripped_yellow_bioshroom_stem"
+    },
+    {
+      "item": "regions_unexplored:stripped_yellow_bioshroom_hyphae"
+    }
+  ],
+  "result": {
+    "id": "regions_unexplored:yellow_bioshroom_pressure_plate",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

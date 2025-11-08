@@ -1,0 +1,17 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "allthemodium:soul_log"
+    },
+    {
+      "item": "allthemodium:stripped_soul_log"
+    }
+  ],
+  "result": {
+    "id": "actuallyadditions:wooden_aiot",
+    "count": 1
+  },
+  "ingredient_count": 3,
+  "type": "sawmill:woodcutting"
+}

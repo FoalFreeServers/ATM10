@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:cherry_planks"
+  },
+  "result": {
+    "id": "mcwbridges:cherry_rail_bridge",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

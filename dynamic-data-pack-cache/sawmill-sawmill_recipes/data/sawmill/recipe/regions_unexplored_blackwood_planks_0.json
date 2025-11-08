@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:blackwood_log"
+    },
+    {
+      "item": "regions_unexplored:blackwood_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_blackwood_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_blackwood_wood"
+    }
+  ],
+  "result": {
+    "id": "regions_unexplored:blackwood_planks",
+    "count": 4
+  },
+  "type": "sawmill:woodcutting"
+}

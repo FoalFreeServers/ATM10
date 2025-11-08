@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:brimwood_log"
+    },
+    {
+      "item": "regions_unexplored:brimwood_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_brimwood_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_brimwood_wood"
+    }
+  ],
+  "result": {
+    "id": "bibliocraft:regions_unexplored_brimwood_shelf",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

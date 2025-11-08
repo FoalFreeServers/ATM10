@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:joshua_log"
+    },
+    {
+      "item": "regions_unexplored:joshua_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_joshua_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_joshua_wood"
+    }
+  ],
+  "result": {
+    "id": "regions_unexplored:joshua_sign",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

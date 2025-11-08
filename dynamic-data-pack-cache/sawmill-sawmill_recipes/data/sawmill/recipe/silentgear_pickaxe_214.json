@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:brimwood_log"
+    },
+    {
+      "item": "regions_unexplored:brimwood_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_brimwood_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_brimwood_wood"
+    }
+  ],
+  "result": {
+    "id": "silentgear:pickaxe",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,23 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:eucalyptus_log"
+    },
+    {
+      "item": "regions_unexplored:eucalyptus_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_eucalyptus_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_eucalyptus_wood"
+    }
+  ],
+  "result": {
+    "id": "mekanismtools:wood_paxel",
+    "count": 1
+  },
+  "ingredient_count": 2,
+  "type": "sawmill:woodcutting"
+}

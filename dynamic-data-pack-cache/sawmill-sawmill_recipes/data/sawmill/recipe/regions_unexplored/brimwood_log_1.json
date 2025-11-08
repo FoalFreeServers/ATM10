@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "regions_unexplored:brimwood_log"
+  },
+  "result": {
+    "id": "regions_unexplored:stripped_brimwood_wood",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

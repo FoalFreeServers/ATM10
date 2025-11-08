@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomeswevegone:palm_log"
+    },
+    {
+      "item": "biomeswevegone:palm_wood"
+    },
+    {
+      "item": "biomeswevegone:stripped_palm_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_palm_wood"
+    }
+  ],
+  "result": {
+    "id": "bibliocraft:biomeswevegone_palm_fancy_armor_stand",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

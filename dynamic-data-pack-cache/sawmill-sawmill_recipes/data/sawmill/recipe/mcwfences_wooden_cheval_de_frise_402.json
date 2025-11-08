@@ -1,0 +1,11 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "tag": "c:logs/archwood"
+  },
+  "result": {
+    "id": "mcwfences:wooden_cheval_de_frise",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

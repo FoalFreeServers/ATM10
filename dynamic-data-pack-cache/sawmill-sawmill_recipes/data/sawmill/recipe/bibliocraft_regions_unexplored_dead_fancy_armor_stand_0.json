@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:dead_log"
+    },
+    {
+      "item": "regions_unexplored:dead_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_dead_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_dead_wood"
+    }
+  ],
+  "result": {
+    "id": "bibliocraft:regions_unexplored_dead_fancy_armor_stand",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

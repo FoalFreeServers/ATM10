@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": {
+    "id": "mcwroofs:acacia_planks_steep_roof",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

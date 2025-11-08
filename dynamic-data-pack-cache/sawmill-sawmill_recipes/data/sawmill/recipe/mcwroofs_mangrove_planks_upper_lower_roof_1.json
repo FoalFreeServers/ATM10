@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:mangrove_planks"
+  },
+  "result": {
+    "id": "mcwroofs:mangrove_planks_upper_lower_roof",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

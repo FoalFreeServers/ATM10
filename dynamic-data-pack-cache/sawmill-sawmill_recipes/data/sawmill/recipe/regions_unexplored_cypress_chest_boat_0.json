@@ -1,0 +1,23 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:cypress_log"
+    },
+    {
+      "item": "regions_unexplored:cypress_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_cypress_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_cypress_wood"
+    }
+  ],
+  "result": {
+    "id": "regions_unexplored:cypress_chest_boat",
+    "count": 1
+  },
+  "ingredient_count": 3,
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:oak_planks"
+  },
+  "result": {
+    "id": "supplementaries:forbidden_arcanus/way_sign_aurum",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

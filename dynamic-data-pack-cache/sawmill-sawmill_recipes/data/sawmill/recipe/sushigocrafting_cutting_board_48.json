@@ -1,0 +1,23 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:blue_bioshroom_stem"
+    },
+    {
+      "item": "regions_unexplored:blue_bioshroom_hyphae"
+    },
+    {
+      "item": "regions_unexplored:stripped_blue_bioshroom_stem"
+    },
+    {
+      "item": "regions_unexplored:stripped_blue_bioshroom_hyphae"
+    }
+  ],
+  "result": {
+    "id": "sushigocrafting:cutting_board",
+    "count": 1
+  },
+  "ingredient_count": 3,
+  "type": "sawmill:woodcutting"
+}

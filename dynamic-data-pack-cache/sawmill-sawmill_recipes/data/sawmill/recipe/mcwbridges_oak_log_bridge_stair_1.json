@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:oak_planks"
+  },
+  "result": {
+    "id": "mcwbridges:oak_log_bridge_stair",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:larch_log"
+    },
+    {
+      "item": "regions_unexplored:larch_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_larch_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_larch_wood"
+    }
+  ],
+  "result": {
+    "id": "stevescarts:component_chest_pane",
+    "count": 10
+  },
+  "type": "sawmill:woodcutting"
+}

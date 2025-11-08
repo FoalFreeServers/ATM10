@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:socotra_log"
+    },
+    {
+      "item": "regions_unexplored:socotra_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_socotra_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_socotra_wood"
+    }
+  ],
+  "result": {
+    "id": "stevescarts:component_large_chest_pane",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

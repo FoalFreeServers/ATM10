@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:oak_planks"
+  },
+  "result": {
+    "id": "supplementaries:domum_ornamentum/way_sign_cactus_extra",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomeswevegone:aspen_log"
+    },
+    {
+      "item": "biomeswevegone:aspen_wood"
+    },
+    {
+      "item": "biomeswevegone:stripped_aspen_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_aspen_wood"
+    }
+  ],
+  "result": {
+    "id": "aquaculture:wooden_fillet_knife",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

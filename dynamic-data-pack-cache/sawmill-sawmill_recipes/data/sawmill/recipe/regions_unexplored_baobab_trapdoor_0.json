@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:baobab_log"
+    },
+    {
+      "item": "regions_unexplored:baobab_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_baobab_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_baobab_wood"
+    }
+  ],
+  "result": {
+    "id": "regions_unexplored:baobab_trapdoor",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

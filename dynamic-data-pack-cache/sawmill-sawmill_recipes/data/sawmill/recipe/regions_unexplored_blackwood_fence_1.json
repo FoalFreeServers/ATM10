@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "regions_unexplored:blackwood_planks"
+  },
+  "result": {
+    "id": "regions_unexplored:blackwood_fence",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

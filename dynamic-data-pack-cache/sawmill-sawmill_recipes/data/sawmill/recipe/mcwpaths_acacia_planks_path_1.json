@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": {
+    "id": "mcwpaths:acacia_planks_path",
+    "count": 6
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "regions_unexplored:magnolia_planks"
+  },
+  "result": {
+    "id": "regions_unexplored:magnolia_slab",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "regions_unexplored:magnolia_log"
+  },
+  "result": {
+    "id": "regions_unexplored:stripped_magnolia_log",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

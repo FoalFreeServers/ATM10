@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:brimwood_log"
+    },
+    {
+      "item": "regions_unexplored:brimwood_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_brimwood_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_brimwood_wood"
+    }
+  ],
+  "result": {
+    "id": "stevescarts:component_large_chest_pane",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

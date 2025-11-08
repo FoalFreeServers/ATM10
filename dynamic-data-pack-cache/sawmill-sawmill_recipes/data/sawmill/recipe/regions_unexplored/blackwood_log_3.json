@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "regions_unexplored:blackwood_wood"
+  },
+  "result": {
+    "id": "regions_unexplored:blackwood_log",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

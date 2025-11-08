@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "regions_unexplored:green_bioshroom_stem"
+  },
+  "result": {
+    "id": "regions_unexplored:stripped_green_bioshroom_stem",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

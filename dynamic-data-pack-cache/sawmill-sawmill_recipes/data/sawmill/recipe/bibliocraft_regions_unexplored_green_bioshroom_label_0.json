@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:green_bioshroom_stem"
+    },
+    {
+      "item": "regions_unexplored:green_bioshroom_hyphae"
+    },
+    {
+      "item": "regions_unexplored:stripped_green_bioshroom_stem"
+    },
+    {
+      "item": "regions_unexplored:stripped_green_bioshroom_hyphae"
+    }
+  ],
+  "result": {
+    "id": "bibliocraft:regions_unexplored_green_bioshroom_label",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

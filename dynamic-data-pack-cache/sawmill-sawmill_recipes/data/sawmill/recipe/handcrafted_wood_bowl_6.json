@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "regions_unexplored:eucalyptus_log"
+    },
+    {
+      "item": "regions_unexplored:eucalyptus_wood"
+    },
+    {
+      "item": "regions_unexplored:stripped_eucalyptus_log"
+    },
+    {
+      "item": "regions_unexplored:stripped_eucalyptus_wood"
+    }
+  ],
+  "result": {
+    "id": "handcrafted:wood_bowl",
+    "count": 6
+  },
+  "type": "sawmill:woodcutting"
+}

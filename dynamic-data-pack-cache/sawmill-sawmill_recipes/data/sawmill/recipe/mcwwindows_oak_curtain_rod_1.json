@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:oak_planks"
+  },
+  "result": {
+    "id": "mcwwindows:oak_curtain_rod",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

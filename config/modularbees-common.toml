@@ -1,0 +1,17 @@
+[hive]
+	#Overclocker energy usage for every bee per tick.
+	# Default: 100
+	# Range: 0 ~ 20000
+	overclocker_energy_usage = 100
+	#Tick interval for export hatch auto output.
+	# Default: 8
+	# Range: 1 ~ 1000
+	auto_output_interval = 8
+	#The base honey output amount for every bee.
+	# Default: 300
+	# Range: 0 ~ 1000
+	honey_base = 300
+	#The base dragon breath output amount for draconic bee.
+	# Default: 400
+	# Range: 0 ~ 1000
+	dragon_breath_base = 400

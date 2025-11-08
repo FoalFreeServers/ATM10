@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "minecraft:oak_planks"
+  },
+  "result": {
+    "id": "mcwwindows:oak_plank_parapet",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}
