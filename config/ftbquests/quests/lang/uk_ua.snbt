@@ -1610,7 +1610,7 @@
 		""
 		"&lAbility Function:&r"
 		""
-		"Automaticly smelts items dropped from mined blocks."
+		"Automatically smelts items dropped from mined blocks."
 	]
 	quest.172D2A634E849562.quest_desc: ["With our ability to harvest &cIesnium&r, we can call upon the Demons to do our bidding in the mines... I mean.... help us gather ores. Definitely not exploiting Demons or anything.\\n\\nFor this, we'll need to create a &dDimensional Mineshaft&r to access the Demon Mining World. You'll also need a Mining Demon confined to a lamp, which you'll place inside of the Mineshaft for it to work. While any tier will complete this quest, higher tiers work faster and have a higher chance at mining Iesnium for you.\\n\\nThe Mineshafts do not auto-export on their own. You will need to extract the items out using either Hoppers, Transporting Demons, or some other method like Item Pipes. It will void any items over its storage limit."]
 	quest.172D2A634E849562.title: "&cDemon Mining"
@@ -4610,7 +4610,7 @@
 		""
 		"&lAbility Function:&r"
 		""
-		"Allows the player to walk though block. There is a block tag to blacklist blocks from being able to be phased through."
+		"Allows the player to walk though blocks. There is a block tag to blacklist blocks from being able to be phased through."
 	]
 	quest.454AC491FDFC3FDB.quest_desc: [
 		"На відміну від більшості кубічних мобів, &6Медові Слимаки&r — дружелюбні! \\n\\nЇх можна розводити цукром, а ще їх можна... доїти? Пляшками для отримання &6Пляшок меду&r. Але якщо ви їх подоїте, вони розсердяться, якщо тільки на вас немає Есенції Бджіл. \\n\\nПісля смерті вони залишають цукор. \\n\\nЗустріти їх можна у деяких структурах, у &bЦукрових Озерах&r або іноді при вирощуванні &6Б&8д&6ж&8і&6л&r у Стільниковому розпліднику."
@@ -4720,7 +4720,7 @@
 		""
 		"&lAbility Function:&r"
 		""
-		"Automaticly clears any blocks affected by gravity directly above the block mined."
+		"Automatically clears any blocks affected by gravity directly above the block mined."
 	]
 	quest.46EFCAE81C09368A.quest_desc: [
 		"Машинні ядра — основа &9Oritech&r. Клацніть ПКМ по машинах із машинним ядром, щоб зібрати їх."
@@ -5819,7 +5819,7 @@
 	quest.562BD37539EE318E.title: "Рівень: &cПломеніючий"
 	quest.565376084F05ED6E.quest_desc: ["The Dimension known for housing the piglins and blazes and wither skeletons, now houses 2 more bosses to fight!"]
 	quest.565376084F05ED6E.title: "&4Nether&r: Land of 2 bosses"
-	quest.56550CD12C681B0F.quest_desc: ["&2Flax Seeds&r can be found growing in fields of grass. Flax is great if you need a lot of String in the eraly game."]
+	quest.56550CD12C681B0F.quest_desc: ["&2Flax Seeds&r can be found growing in fields of grass. Flax is great if you need a lot of String in the early game."]
 	quest.56550CD12C681B0F.quest_subtitle: "Flax on, Flax off"
 	quest.565703CBB06CEABF.quest_desc: ["I know why you all are here for, you're here for the &4&lMorgan Sword&r. \\n\\nOne of the powerful Swords of all the &6&lATM Modpacks&r. \\n\\nFollow these Quests and you'll become an unstoppable force!"]
 	quest.565703CBB06CEABF.title: "Getting &4&lMorgan"
@@ -5986,7 +5986,7 @@
 		""
 		"&lAbility Function:&r "
 		""
-		"Spwans a decoy of the player that pulls agro away from the player, has a cooldown."
+		"Spawns a decoy of the player that pulls agro away from the player, has a cooldown."
 	]
 	quest.5962DC39E5874FB9.quest_subtitle: "Lapis + Skeletal"
 	quest.5979DE0E2BA3DAE5.quest_desc: ["&7Залізничні колії&r — це те, чим ти будеш рухати &5потяги&r! \\n\\nПотрібно &6розмістити&r 2 &7залізних самородки&r на &8кам'яну плиту&r, потім &6спресувати&r у &6металевому пресі&r, щоб отримати 1 колію. \\n\\nЦе перший блок, який ти розмістиш для запуску &5потягів&r, адже без нього не поставиш &5залізничну станцію&r. \\n\\nЄ обмеження: не можна робити круті повороти чи підйоми. Щоб піднятися на 1 блок, потрібно 4 блоки довжини. А для ідеального кола з &7колій&r потрібно 18 блоків у діаметрі!"]
@@ -6374,7 +6374,7 @@
 	quest.5EDB5A2D744CE415.quest_subtitle: "Straight outta Fallout"
 	quest.5EDB5A2D744CE415.title: "&4Laser Gatling"
 	quest.5EE1DF1C8F0C1FF9.quest_desc: [
-		"After building the &l&5Lightning Coil&r we can have Lightning Strike the &8Steel Fences&r, which will then become &cEnergy&r in its own &cEnergy&r resevior. \\n\\nThe more &8Steel Fences&r the higher chance of Lightning! \\n\\nI wonder if we can use other Mods to summon Lightning?"
+		"After building the &l&5Lightning Coil&r we can have Lightning Strike the &8Steel Fences&r, which will then become &cEnergy&r in its own &cEnergy&r reservoir. \\n\\nThe more &8Steel Fences&r the higher chance of Lightning! \\n\\nI wonder if we can use other Mods to summon Lightning?"
 		"{@pagebreak}"
 		"To harness the power of Mother Nature's most devastating we'll need to start with a &5High-Voltage Coil Block&r. Then, place &5HV Accumulators&r adjacent to the &5High-Voltage Coil Block&r. On the corners place down &8Steel Scaffolding&r."
 		"{image:atm:textures/questpics/immersive/immersive_lightning1.png width:100 height:100 align:center}"
@@ -6527,7 +6527,7 @@
 		""
 		"&lAbility Function:&r"
 		""
-		"Automaticly smokes items dropped by kills."
+		"Automatically smokes items dropped by kills."
 	]
 	quest.612157986673F815.quest_desc: ["Погодуйте &6Б&8д&6ж&8о&6л&8и&r або &6Б&8д&6ж&8о&6л&8а&r чимось, окрім &dКвітів&r, 48 разів!"]
 	quest.6124C0E9E419694B.quest_desc: ["Upgrade &7Cloggrum&r Tools with &aForgotten Ingots&r and a Smithing Template. \\n\\nThese are the best Tools you can get, they come with Efficiency on them already just for &2&lUndergarden&r Blocks. \\n\\nAnd the Sword and Axe will deal more damage to all &2&lUndergarden&r Mobs but the &cRot Beast&r and &aForgotten Guardian&r!"]
@@ -6675,7 +6675,7 @@
 		""
 		"&lAbility Function:&r"
 		""
-		"Automaticly teleports item drops to the inventory bound to the tool. Shift Right Clicking the tool on an inventory binds it. Note when on a JDT hoe items dropped by the auto harvest ability of the voidshimmer / shadowpulse farmland are teleported to the bound inventory, also right clicking voidshimmer / shadowpulse farmland will re-bind them if the bound inventory of the tool has been changed."
+		"Automatically teleports item drops to the inventory bound to the tool. Shift Right Clicking the tool on an inventory binds it. Note when on a JDT hoe items dropped by the auto harvest ability of the voidshimmer / shadowpulse farmland are teleported to the bound inventory, also right clicking voidshimmer / shadowpulse farmland will re-bind them if the bound inventory of the tool has been changed."
 	]
 	quest.63768C7B988ED22B.quest_desc: ["Take your &bStrengthened Diamond Sword&r in a pool of &dDragon's Breath&r and you will get &d&lClarent&r! \\n\\n&d&lClarent&r works as a Shield and Sword. \\n\\nHold Right Click to block with &d&lClarent&r and any attacks it blocks it'll deal the same damage it blocked."]
 	quest.63768C7B988ED22B.title: "&d&lClarent"
@@ -6839,7 +6839,7 @@
 		""
 		"&lAbility Function:"
 		""
-		"Increases area mined at once. When installed on higher tier tools the maximum area mined is increase. Mined area can be configured in the menu."
+		"Increased area mined at once. When installed on higher tier tools the maximum area mined is increase. Mined area can be configured in the menu."
 	]
 	quest.66A450CAC07232E1.quest_desc: ["&6Термодинамічні провідники&r передають &6Тепло&r. Так, деякі &5&lМашини Mekanism&r використовують &6Тепло&r! Наприклад, &6&lТермічна випарна установка&r. \\n\\nБільшість &6Нагрівачів&r мають певні сторони для виводу &6Тепла&r! \\n\\nНе впевнений, що означають ці числа, але чим дорожче — тим краще!"]
 	quest.66A450CAC07232E1.quest_subtitle: "Тепло"

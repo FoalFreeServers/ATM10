@@ -73,7 +73,7 @@
 		#The maximum length of cable wires
 		# Default: 32
 		# Range: > 0
-		maxLength = 128
+		maxLength = 32
 
 	[wires.redstone]
 		#The maximum length of redstone wires

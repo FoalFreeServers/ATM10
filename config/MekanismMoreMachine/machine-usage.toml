@@ -22,6 +22,10 @@ cnc_rollingMill = 50
 # Default: 100
 # Range: 0 ~ 9223372036854775807
 ambientGasCollector = 100
+#Energy per operation in Joules of: Large Rotary Condensentrator
+# Default: 50
+# Range: 0 ~ 9223372036854775807
+largeRotaryCondensentrator = 50
 
 #Settings for configuring Replicator Energy Usage
 [replicator]

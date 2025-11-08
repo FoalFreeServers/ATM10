@@ -4,5 +4,9 @@
   "entitySectionCME": false,
   "debugItemStackModifications": false,
   "scoreboardDebug": false,
-  "debugNativeImage": false
+  "debugNativeImage": false,
+  "disableSearchTree": false,
+  "logIntervalInMinutes": 10,
+  "showSummaryOnDebugScreen": true,
+  "memoryUsageWarningPercentage": 90
 }

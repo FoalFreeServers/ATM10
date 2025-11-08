@@ -1,17 +1,17 @@
 {
   "commonHelmets": {
     "entries": {
-      "minecraft:iron_helmet": 0.3,
       "minecraft:carved_pumpkin": 0.01,
+      "minecraft:leather_helmet": 0.1,
       "minecraft:chainmail_helmet": 0.3,
-      "minecraft:leather_helmet": 0.1
+      "minecraft:iron_helmet": 0.3
     },
     "defaultItem": "minecraft:air"
   },
   "rareHelmets": {
     "entries": {
-      "minecraft:diamond_helmet": 0.3,
-      "minecraft:carved_pumpkin": 0.2
+      "minecraft:carved_pumpkin": 0.2,
+      "minecraft:diamond_helmet": 0.3
     },
     "defaultItem": "minecraft:air"
   },

@@ -60,7 +60,8 @@
 			#Should Boots Prevent Fall Damage?
 			prevent_fall_damage = true
 
-		[armor_config.allthemodium.spell_book]
+		[armor_config.allthemodium.allthemodium_spellbook]
+			_comment = "Config for Allthemodium spellbook"
 			#How many bonus glyph slots should the spell book provide?
 			# Default: 2
 			# Range: 0 ~ 990
@@ -129,7 +130,8 @@
 			#Should Boots Prevent Fall Damage?
 			prevent_fall_damage = true
 
-		[armor_config.vibranium.spell_book]
+		[armor_config.vibranium.vibranium_spellbook]
+			_comment = "Config for Vibranium spellbook"
 			#How many bonus glyph slots should the spell book provide?
 			# Default: 5
 			# Range: 0 ~ 990
@@ -198,7 +200,8 @@
 			#Should Boots Prevent Fall Damage?
 			prevent_fall_damage = true
 
-		[armor_config.unobtainium.spell_book]
+		[armor_config.unobtainium.unobtainium_spellbook]
+			_comment = "Config for Unobtainium spellbook"
 			#How many bonus glyph slots should the spell book provide?
 			# Default: 10
 			# Range: 0 ~ 990
@@ -207,3 +210,14 @@
 			# Default: 1.2999999523162842
 			# Range: 1.0 ~ 10.0
 			bonus_damage_multiplier = 1.2999999523162842
+
+	[armor_config.creative_spellbook]
+		_comment = "Config for Creative spellbook"
+		#How many bonus glyph slots should the spell book provide?
+		# Default: 10
+		# Range: 0 ~ 990
+		bonus_glyphs = 10
+		#What damage multiplier should be applied when `allthearcanistgear:bonus_damage` entities are hurt?
+		# Default: 1.2999999523162842
+		# Range: 1.0 ~ 10.0
+		bonus_damage_multiplier = 1.2999999523162842

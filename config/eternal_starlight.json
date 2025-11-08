@@ -2,6 +2,7 @@
   "enablePortalShader": true,
   "enableScreenShake": true,
   "aethersentMeteorDropRate": 5.0E-4,
+  "aethersentMeteorReplaceBlocks": false,
   "laserBeamBreakBlocks": true,
   "mobMaxTearyTicks": 200,
   "mobsConfig": {
@@ -61,11 +62,12 @@
       "canSpawn": true
     },
     "stranghoul": {
-      "maxHealth": 40.0,
+      "maxHealth": 30.0,
       "armor": 2.0,
       "attackDamage": 2.0,
       "followRange": 32.0,
-      "canSpawn": true
+      "canSpawn": true,
+      "hiringCooldown": 8000
     },
     "ent": {
       "maxHealth": 10.0,
@@ -157,8 +159,8 @@
       "canSpawn": true
     },
     "starlightGolem": {
-      "maxHealth": 220.0,
-      "armor": 0.0,
+      "maxHealth": 200.0,
+      "armor": 10.0,
       "attackDamageScale": 1.0,
       "followRange": 200.0,
       "canSpawn": true
@@ -166,8 +168,15 @@
     "freeze": {
       "maxHealth": 15.0,
       "armor": 0.0,
-      "attackDamage": 5.0,
+      "attackDamage": 3.0,
       "followRange": 32.0,
+      "canSpawn": true
+    },
+    "permafrost": {
+      "maxHealth": 120.0,
+      "armor": 10.0,
+      "attackDamageScale": 1.0,
+      "followRange": 200.0,
       "canSpawn": true
     },
     "lunarMonstrosity": {
@@ -185,17 +194,10 @@
       "canSpawn": true
     },
     "tangledSkull": {
-      "maxHealth": 10.0,
+      "maxHealth": 1.0,
       "armor": 0.0,
       "attackDamage": 3.0,
       "followRange": 64.0,
-      "canSpawn": true
-    },
-    "tangledHatred": {
-      "maxHealth": 60.0,
-      "armor": 5.0,
-      "attackDamageScale": 1.0,
-      "followRange": 100.0,
       "canSpawn": true
     }
   },
