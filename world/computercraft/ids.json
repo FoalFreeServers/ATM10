@@ -7,5 +7,9 @@
   "peripheral.monitor": 4,
   "peripheral.computer": 7,
   "disk": 0,
-  "peripheral.drive": 2
+  "peripheral.drive": 2,
+  "peripheral.mekanism:boiler_casing": 0,
+  "peripheral.geo_scanner": 0,
+  "peripheral.energy_detector": 1,
+  "peripheral.energizedSmelter": 0
 }
