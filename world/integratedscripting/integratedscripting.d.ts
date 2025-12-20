@@ -194,6 +194,7 @@ export interface Operations {
   booleanChoice: (arg0: boolean, arg1: any, arg2: any) => any;
   shortAsNbt: (arg0: number) => Record<string, any>;
   blockPlaceSound: (arg0: ValueBlock) => string;
+  stringFluidByName: (arg0: string) => ValueFluidstack;
   fluidstackNbt: (arg0: ValueFluidstack) => Record<string, any>;
   itemstackIsStackable: (arg0: ValueItemstack) => boolean;
   entityHurtSound: (arg0: ValueEntity) => string;
