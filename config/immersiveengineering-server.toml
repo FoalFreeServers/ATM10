@@ -31,7 +31,7 @@
 		#The maximum length of electrum wires
 		# Default: 16
 		# Range: > 0
-		maxLength = 16
+		maxLength = 32
 		#The transfer rate of electrum wire in IF/t
 		# Default: 8192
 		# Range: > 0
@@ -43,31 +43,31 @@
 		#In- and output rates of electrum wire connectors. This is independent of the transfer rate of the wires.
 		# Default: 1024
 		# Range: > 0
-		wireConnectorInput = 1024
+		wireConnectorInput = 2048
 
 	[wires.hv]
 		#The maximum length of hv wires
 		# Default: 32
 		# Range: > 0
-		maxLength = 32
+		maxLength = 128
 		#The transfer rate of hv wire in IF/t
 		# Default: 32768
 		# Range: > 0
-		transferRate = 32768
+		transferRate = 131072
 		#The percentage of received power lost every 16 blocks of distance in hv wire. This means exponential loss!
 		# Default: 8.0E-4
 		# Range: 0.0 ~ 1.0
-		distanceLoss = 8.0E-4
+		distanceLoss = 8.0E-5
 		#In- and output rates of hv wire connectors. This is independent of the transfer rate of the wires.
 		# Default: 4096
 		# Range: > 0
-		wireConnectorInput = 4096
+		wireConnectorInput = 16384
 
 	[wires.rope]
 		#The maximum length of rope wires
 		# Default: 32
 		# Range: > 0
-		maxLength = 32
+		maxLength = 64
 
 	[wires.cable]
 		#The maximum length of cable wires
