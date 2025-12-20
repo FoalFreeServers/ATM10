@@ -5,8 +5,6 @@
   "debugItemStackModifications": false,
   "scoreboardDebug": false,
   "debugNativeImage": false,
-  "disableSearchTree": false,
-  "logIntervalInMinutes": 10,
-  "showSummaryOnDebugScreen": true,
-  "memoryUsageWarningPercentage": 90
+  "disableEternalStarlightProgress": true,
+  "skipTickingUnloadedFluxNetworks": true
 }

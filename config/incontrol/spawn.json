@@ -53,5 +53,15 @@
         "mob": "creeperoverhaul:dripstone_creeper",
         "mincount": 15,
         "result": "deny"
-      }		  
+      },
+		{
+        "mob": "endermanoverhaul:cave_enderman",
+        "mincount": 15,
+        "result": "deny"
+      },
+		{
+        "mob": "endermanoverhaul:badlands_enderman",
+        "mincount": 15,
+        "result": "deny"
+      }				  
 ]
