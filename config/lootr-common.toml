@@ -6,6 +6,8 @@
 	# Default: 18000
 	# Range: > 0
 	max_age = 18000
+	#if true, accessing a Lootr container will bypass spawn protection
+	bypass_spawn_protection = true
 	#if true, no chests will be converted
 	disable = false
 	#whether or not mineshaft chest minecarts should be converted to standard loot chests
@@ -35,7 +37,7 @@
 	loot_table_blacklist = []
 	#list of modids whose loot tables shouldn't be converted (in the format of ["modid", "other_modid"])
 	loot_modid_blacklist = []
-	#list of loot tables whose conversion causes problems (in the same format as `loot_table_tlacklist`)
+	#list of loot tables whose conversion causes problems (in the same format as `loot_table_blacklist`)
 	problematic_loot_tables = ["twilightforest:structures/stronghold_boss", "atum:chests/pharaoh"]
 
 [breaking]
@@ -83,6 +85,8 @@
 	decay_modids = []
 	#list of dimensions where loot chests should automatically decay (default: blank, e.g., ["minecraft:the_nether", "minecraft:the_end"])
 	decay_dimensions = []
+	#when true, decayed containers will be replaced with their equivalent vanilla block instead of being removed
+	replace_when_decayed = false
 	#containers that have already been marked as decaying will be decayed during level tick as well as when next trapped
 	perform_decay_while_ticking = true
 	#containers that have not yet been marked as decaying will be marked for decay during level tick as well as when next trapped

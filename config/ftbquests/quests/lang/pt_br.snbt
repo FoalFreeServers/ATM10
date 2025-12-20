@@ -2712,7 +2712,7 @@
 		"{image:atm:textures/questpics/undergarden/undergarden_frosty.png width:200 height:100 align:center}"
 	]
 	quest.1E13D7CE5A9EFF74.title: "Frostfields"
-	quest.1E1EB7DC19DDCFB7.quest_desc: ["Para criar ferramentas e armaduras de Netherite, você precisará encontrar o &6Molde de Ferraria de Netherite&r em baús encontrados dentro de Bastiões.\\n\\nEstes podem ser combinados com uma Barra de &cNetherite&r e uma ferramenta ou armadura de Diamante em uma &aMesa de Ferraria&r para atualizá-la para &cNetherite&r.\\n\\nDica: Não use todos os seus moldes de uma vez! Você pode criar duplicatas usando a receita para criar outro."]
+	quest.1E1EB7DC19DDCFB7.quest_desc: ["Para criar ferramentas e armaduras de Netherita, você precisará encontrar o &6Molde de Ferraria de Netherita&r em baús encontrados dentro de Bastiões.\\n\\nEles podem ser combinados com uma &cBarra&r de &cNetherita&r e uma ferramenta ou peça de armadura de Diamante em uma &aBancada de Ferraria&r para aprimorá-la para &cNetherita&r.\\n\\nDica: Não use todos os seus moldes de uma só vez! Você pode criar duplicatas usando a receita para criar outro."]
 	quest.1E1EB7DC19DDCFB7.title: "&6Molde de Netherite&r"
 	quest.1E22A0D5F4B2EB0D.quest_subtitle: "Congelando Argônio com Hélio"
 	quest.1E2A9446594638E2.quest_desc: ["O &5Chorus Inhibitor&r é outra &6Relíquia&r simples. Ele pode te teleportar para um bloco que você está olhando, se estiver ao alcance. O alcance pode ser aprimorado na &6Janela de Pesquisa&r."]
@@ -3247,7 +3247,7 @@
 	quest.24BAC1C0392E950E.title: "&6Traje de Sacerdote"
 	quest.24C757B8AA6841F6.quest_desc: ["O &5&lApotheosis&r sabe como &3Tridentes&r podem ser irritantes de obter, então eles tornaram mais fácil... bem, um pouco mais fácil! \\n\\nAgora você pode fazer um &3Tridente Inerte&r e &d&lInfundi-lo&r para obter um &3Tridente&r normal. \\n\\nO &3Tridente&r requer entre &a40 Eterna&r, &c20%-50% Quanta&r e pelo menos &535% Arcana&r. \\n\\nVocê pode obter isso com 1 &7Estante&r, 4 &9Echoing Sculkshelves&r e 1 &2Estante de Melão&r."]
 	quest.24C757B8AA6841F6.title: "Fazendo um &3Tridente&r de verdade"
-	quest.24C9BA6DC32CFAD9.quest_desc: ["O carvão é sua primeira fonte real de energia. Se você estiver com pouco e não conseguir encontrar nenhum carvão, uma alternativa melhor para você será o carvão vegetal. "]
+	quest.24C9BA6DC32CFAD9.quest_desc: ["O Carvão é sua primeira fonte real de energia. Se você estiver com pouco e não conseguir encontrar Carvão, uma alternativa seria usar Carvão Vegetal."]
 	quest.24C9BA6DC32CFAD9.quest_subtitle: "Funda seus troncos"
 	quest.24D11ED5F4EEDC48.quest_desc: ["Para aqueles que são novos no &6&lApotheosis&r, os &9Encaixes&r podem ser confusos e irritantes. \\n\\nResumindo, suas Armas e Armaduras precisam de &9Encaixes&r para usar &aGemas&r. \\n\\nMas e se não tiver um &9Encaixe&r? \\n\\nEntão você precisará de um &9Símbolo de Encaixe&r! \\n\\nCombine seu item e o &9Símbolo&r em uma &8&lMesa de Ferraria&r e pronto, você pode obter até 2 &9Encaixes&r."]
 	quest.24D11ED5F4EEDC48.title: "&9Símbolo de Encaixe"
@@ -3726,7 +3726,7 @@
 	quest.2ADA491A2485061C.title: "&aExperiência"
 	quest.2AEA51044AD44BE8.quest_desc: ["&eDepósitos&r irão segurar &eItens&r. Eles podem segurá-los para processar os &eItens&r, ou depositar em uma &eCalha&r, ou mesmo apenas para decoração! \\n\\nVocê pode colocar uma &eCalha&r perto do final de uma &eCorreia&r para trazer &eItens&f da &eCorreia &rpara o &eDepósito&r. \\n\\nO &eDepósito&r também pode ser colocado abaixo de uma &6Máquina&r para processar &eItens&r dentro dele. "]
 	quest.2AEA51044AD44BE8.title: "&eDepósito"
-	quest.2AEBE3F28996A6ED.quest_desc: ["Com nossos novos metais, podemos aprimorar nossa Fornalha usando o mod &aFornalha de Ferros&r!\\n\\nAs Fornalha de Ferros (fornalhas do próprio mod, não apenas a versão de Ferro) permitem adicionar &aAprimoramentos&r para aumentar sua velocidade, mudar a função da fornalha e muito mais!\\n\\nEssas fornalhas facilitam a automação, permitindo que você puxe ou empurre automaticamente pelos lados usando a configuração à esquerda da interface."]
+	quest.2AEBE3F28996A6ED.quest_desc: ["Com nossos novos metais, podemos aprimorar nossa Fornalha usando o mod &aIron Furnaces&r!\\n\\nAs Fornalhas do Iron Furnaces (Fornalhas do próprio mod, não apenas a versão de Ferro) permitem que você adicione &aMelhorias&r para aprimorar a velocidade de uma Fornalha, mudar sua função, e muito mais!\\n\\nEstas Fornalhas facilitam a automação ao permitir que você puxe ou empurre automaticamente pelos lados usando a configuração à esquerda da interface."]
 	quest.2AEBE3F28996A6ED.title: "&aMelhorias de Fornalha&r!"
 	quest.2AEC294578952BFD.quest_subtitle: "Lápis + Esquelético"
 	quest.2AEC294578952BFD.title: "&fAbelha de Corante"
@@ -3894,6 +3894,21 @@
 		"{image:atm:textures/questpics/eternal/starlight_permafrost.png width:200 height:100 align:center}"
 	]
 	quest.2D457E53BB6D63C7.title: "Floresta de Permafrost"
+	quest.2D4749DF9642F334.quest_desc: [
+		"O &eDyson Cube&r é a fonte de energia definitiva, produzindo insanos &l&a1GFE/t&r&r!"
+		""
+		"Monte um &eEM Rail Ejector Controller&r para lançar &bSolar Sails&r e &bBeams&r em órbita ao redor do Sol. Você pode inserir itens &bautomaticamente&r pelo centro da face inferior (você definitivamente precisará de automação para atingir a potência máxima). Infelizmente, ele &onão pode disparar&r ao meio-dia, à noite ou durante a chuva."
+		""
+		"Para coletar essa energia gloriosa, construa um &bRay Receiver Controller&r. Ele emite energia pelo centro de sua face inferior, mas &onão pode receber energia&r durante a &enoite&r ou &echuva&r."
+		""
+		"Você pode &eempacotar&r beams e sails em pacotes para lançamentos mais rápidos, o que é muito mais fácil do que enviá-los um por um."
+		""
+		"Para potência máxima, você precisará enviar &c8.333.333&r beams e &c49.999.998&r sails para a órbita, o que é bastante."
+		""
+		"Antes de começar a escalar até esse nível, certifique-se de ter alguma &ageração de recursos robusta&r estabelecida."
+	]
+	quest.2D4749DF9642F334.quest_subtitle: "O poder do Sol, na palma da sua mão"
+	quest.2D4749DF9642F334.title: "&eDyson Cube"
 	quest.2D474F8075E9DBD0.quest_desc: ["Primeiro você precisa colocar o Altar de Fundição e as Pedras Verticais no padrão especificado no JEI. \\n\\nEntão, você precisará colocar um Bloco de Diamante, uma Vara e Pó de Blaze no Altar. \\n\\nDepois disso, coloque 4 Braseiros de Incenso ao redor do Altar, coloque o Bloco de Carvão em um, Casca de Acácia em outro, Casca Verdejante no terceiro e Casca de Bétula no último. E acenda todos eles com um Isqueiro! \\n\\nEntão segure Shift e clique com o botão direito no Altar para iniciar o Ritual! Se não funcionou, verifique o padrão em que as Pedras Verticais estão."]
 	quest.2D592669F4D41793.quest_desc: ["Assim como o Reator, a estrutura deve ser construída com &dInvólucros&r, mas as paredes podem ser de &9Vidro de Turbina&r em vez disso!"]
 	quest.2D592669F4D41793.title: "Construção da Turbina"
@@ -4442,11 +4457,6 @@
 	quest.34FBD04361657724.title: "Os Cristais do Espaço e do Tempo: Cristais Entro"
 	quest.34FC02F47F52887F.quest_desc: ["Esse &eLivro de Feitiços&r definitivamente faz você se esforçar para conseguir os 12 &3Slots de Feitiço&r! \\n\\nVocê vai precisar de &bFrascos de Veneno de Gelo&r, que são feitos de &bPresas Geladas&r ou obtidos no &bCovil das Aranhas de Gelo&r. \\n\\n&5Tecidos Arcanos&r que são muito fáceis de fazer. Além de &bFragmentos de Mithril&r que você precisará minerar! \\n\\nPelo quão frio o &eLivro de Feitiços&r parece, acho que ele ajuda com &bFeitiços de Gelo&r."]
 	quest.34FC02F47F52887F.title: "&bLivro de Feitiços Congelado"
-	quest.350A78BA973FD04B.quest_desc: [
-		"O Ódio Emaranhado é um chefe que apoia a Monstruosidade Lunar. Eles aparecem juntos e trabalham juntos para te matar. \\n\\nO Ódio Emaranhado tem 60 Corações de dano e se move constantemente pelo chão para te atingir. Se ele te atingir, ele lhe dará Veneno. \\n\\nSe você conseguir matá-lo, ele dropará Almas Aprisionadas e Vinhas Tenazes!"
-		"{image:atm:textures/questpics/eternal/starlight_hatred.png width:150 height:150 align:center}"
-	]
-	quest.350A78BA973FD04B.title: "Ódio Emaranhado"
 	quest.351159C55159C316.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_spire.png width:100 height:150 align:center}"]
 	quest.351159C55159C316.quest_subtitle: "Cidade do End e Navios do End"
 	quest.351159C55159C316.title: "Ornamento de Armadura de Agulha"
@@ -5542,7 +5552,7 @@
 	quest.4071BBBE12CACD2D.quest_desc: ["O Dispensador de &5Trem&r é uma versão melhor do Dispensador de &7Carrinho&r. Ele pode dispensar a &5Locomotiva&r inteira e mais! Defina um padrão para o que você quer que seja implantado e então dê um sinal de redstone."]
 	quest.4071BBBE12CACD2D.title: "Dispensador de Trem"
 	quest.40786B63E2901D11.quest_desc: [
-		"Deixe-me ver como descrevo o Jardim Amaldiçoado... é um labirinto gigante! \\n\\nHá entradas de cada lado e você deve encontrar o caminho para o meio, onde estão a Monstruosidade Lunar e o Ódio Emaranhado! \\n\\nPor todo o labirinto você pode encontrar baús cheios de Saque e Emaranhados!"
+		"Deixe-me ver como descrevo o Jardim Amaldiçoado... é um labirinto gigante! \\n\\nHá entradas de cada lado e você deve encontrar o caminho para o meio, onde está a Monstruosidade Lunar! \\n\\nPor todo o labirinto você pode encontrar baús cheios de Saque e Emaranhados!"
 		"{image:atm:textures/questpics/eternal/starlight_maze.png width:150 height:150 align:center}"
 	]
 	quest.40786B63E2901D11.title: "Jardim Amaldiçoado"
@@ -6728,7 +6738,7 @@
 	quest.4E3D548E5D8D7D26.title: "Campos Esquecidos"
 	quest.4E4C8BCD45766F03.quest_desc: ["Esta Gaveta converterá automaticamente o item colocado dentro dela para sua forma compactada."]
 	quest.4E4C8BCD45766F03.quest_subtitle: "Compacta/Descompacta Automaticamente"
-	quest.4E5238F00CEED8B2.quest_desc: ["Fundir minérios brutos no início é necessário, mas você está perdendo recursos extras!\\n\\nExistem várias maneiras de dobrar sua produção por minério bruto, mas uma das maneiras mais fáceis é criando e usando um &eMartelo de Minério&r.\\n\\nEles quebrarão 1 minério bruto em 2 pós que podem ser fundidos em barras, dobrando efetivamente sua produção de barras!\\n\\nQuer mais por minério bruto? Confira o mod &5Occultism&r!"]
+	quest.4E5238F00CEED8B2.quest_desc: ["Fundir minérios brutos no início é necessário, mas você está perdendo recursos extras!\\n\\nExistem várias maneiras de dobrar sua produção por minério bruto, mas uma das maneiras mais fáceis é criando e usando um &eMartelo de Minério&r.\\n\\nEles quebrarão 1 minério bruto em 2 pós de minério, que podem ser fundidos em Barras, dobrando efetivamente sua produção de Barras!\\n\\nQuer mais por minério bruto? Confira o mod &5Occultism&r!"]
 	quest.4E5238F00CEED8B2.title: "&eDuplicação Básica de Minério"
 	quest.4E69C6ABFE467C25.quest_desc: ["O &#65C2A6Fundidor de Ligas&r vem do &#3187C4Extended Industrialization&r. Ele combina as funções do &#4C4BDEMisturador&r e da &#954BDEFornalha&r em um só, tornando o trabalho menos cansativo."]
 	quest.4E69C6ABFE467C25.title: "&fO &7Forno de Ligas"
@@ -8770,6 +8780,16 @@
 	quest.677A701E06422CF3.title: "&cPatins"
 	quest.677C5D35DADA4A42.quest_desc: ["&cO Acoplador&r serve para conectar ou desconectar &7Carrinhos&r. Acoplamento é a frase para conectar &7Carrinhos&r. \\n\\nPode ser configurado com uma &4Pé-de-cabra&r para acoplar, desacoplar ou acoplar automaticamente. Precisa de Redstone para funcionar."]
 	quest.677C5D35DADA4A42.title: "Acoplador do &cKit de Trilhos&r"
+	quest.677D0C23D53A77CA.quest_desc: [
+		"&bDraconic Evolution&r adiciona um multibloco chamado &dNúcleo de Energia&r."
+		""
+		"Embora possa parecer confuso, o nível final pode armazenar &m9,223,372,036,854,775,808 FE&r, basicamente energia infinita."
+		""
+		"Para mais informações, confira o Capítulo de Draconic Evolution"
+		"{image:atm:textures/questpics/draconic/draconic_core_8on.png width:100 height:100 align:1}"
+	]
+	quest.677D0C23D53A77CA.quest_subtitle: "Armazenamento Basicamente Infinito"
+	quest.677D0C23D53A77CA.title: "&9Draconic Evolution: &dNúcleo de Energia"
 	quest.677D0E27CAD7B145.quest_subtitle: "Alimente uma Abelha Slime Rosa com um Balde de Gás Éter"
 	quest.677D0E27CAD7B145.title: "&fAbelha de Gás Éter"
 	quest.6786B08C30D26037.quest_desc: [
@@ -8844,7 +8864,7 @@
 	quest.681A3F31FB242555.quest_desc: ["O &3Etanol&r pode ser usado para fazer Biodiesel."]
 	quest.681A3F31FB242555.title: "Etanol"
 	quest.682034C680FDEDC2.quest_desc: [
-		"A &aMatriz de Indução&r do &9Mekanism&r é a maneira definitiva de armazenar sua energia.\\n\\nSe você está procurando o melhor armazenamento de energia do jogo, confira o capítulo de missões &aMekanism:&r &dReatores&r.\\n"
+		"A &aMatriz de Indução&r do &9Mekanism&r é uma das melhores maneiras de armazenar sua energia.\\n\\nSe você está procurando o melhor armazenamento de energia que o Mekanism tem a oferecer, confira o capítulo de missão &aMekanism:&r &dReatores&r.\\n"
 		"{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:center fit:true}"
 	]
 	quest.682034C680FDEDC2.title: "Mais Armazenamento de Energia"
@@ -9380,8 +9400,8 @@
 	quest.6ED61438A8A1EAA4.title: "Wither mais Netherita = ...?"
 	quest.6EDAB29FBD3C60A3.quest_desc: ["Este bioma foi introduzido na Atualização Selvagem!\\n\\nCuidado! Você pode acidentalmente invocar um novo amigo.\\n\\nP.S. - Ele não é amigável."]
 	quest.6EDAB29FBD3C60A3.title: "&6Visite a &dEscuridão Profunda&r!"
-	quest.6EE5BE5693E8ACE4.quest_desc: ["No &dThe End&r, você encontrará o chefe final do Minecraft Vanilla: O &5Dragão do End&r.\\n\\nNo topo de cada pilar de Obsidiana, você encontrará um Cristal do End que cura o Dragão. Certifique-se de destruí-los primeiro! Eles também causam muito dano, então certifique-se de criar alguma distância!\\n\\nUma vez derrotado, um &dOvo de Dragão&r surge no topo do Portal de Saída. Este não pode ser minerado como blocos normais, mas é afetado pela gravidade."]
-	quest.6EE5BE5693E8ACE4.title: "&5O Fim"
+	quest.6EE5BE5693E8ACE4.quest_desc: ["Em &dO End&r, você encontrará o chefe final do Minecraft Vanilla: O &5Dragão do Ender&r.\\n\\nNo topo de cada pilar de Obsidiana, você encontrará um Cristal do End que cura o Dragão. Certifique-se de destruí-los primeiro! Eles também causam muito dano quando explodem, então certifique-se de manter alguma distância!\\n\\nUma vez derrotado, um &dOvo de Dragão&r surge no topo do Portal de Saída. Ele não pode ser minerado como blocos normais, mas é afetado pela gravidade."]
+	quest.6EE5BE5693E8ACE4.title: "&5O End"
 	quest.6EE68EEFE388CF8A.quest_subtitle: "&f4 de &cDano de Ataque"
 	quest.6EF206A0BD5BAC0A.quest_desc: ["&5Épico&r está finalmente subindo mais para o lado superpoderoso. \\n\\n&5Épico&r aparece após o &lNível de Mundo: &2Fronteira&r e é mais comum no &lNível de Mundo: &4Pináculo&r. \\n\\n&5Areias Arcanas&r são feitas usando &eItens&r &5Épicos&r em uma &c&lMesa de Desmanche&r."]
 	quest.6EF206A0BD5BAC0A.quest_subtitle: "&5Épico"
@@ -10076,7 +10096,7 @@
 	quest.763EB5C911D7E78C.title: "Nível Caótico"
 	quest.763FB27929E053BE.quest_desc: ["Os &9Filtros de &8Melhoria&r são usados apenas em &b&lBombas Elétricas&r. \\n\\nAs &b&lBombas&r funcionarão da mesma forma, mas em vez de coletar &9Água&r, elas coletarão &9Água Pesada&r. \\n\\n&9Água Pesada&r será necessária como Combustível para o &2&lReator de Fissão&r!"]
 	quest.763FB27929E053BE.title: "&8Melhoria de &9Filtro"
-	quest.76406EFFF8CBA6B4.quest_desc: ["Diamantes são um dos melhores materiais para usar na criação de ferramentas, mas também permitem que você visite novas dimensões como o Nether!"]
+	quest.76406EFFF8CBA6B4.quest_desc: ["Diamantes são um dos melhores materiais para usar na fabricação de ferramentas, mas eles também permitem que você visite novas dimensões como a Twilight Forest"]
 	quest.76406EFFF8CBA6B4.title: "Encontramos &bDiamantes&r!"
 	quest.764609E41957DA69.quest_subtitle: "6.561 Blocos de Esmeralda"
 	quest.7649D648A3688D4A.quest_desc: ["O Upgrade Puxador permite que as Gavetas puxem itens de qualquer lado."]
@@ -10084,7 +10104,7 @@
 	quest.76558D23A70AFF78.title: "Orbe de Melhoria de &bGelo&r"
 	quest.7655E1C6C5E5469F.quest_subtitle: "Alcance: &a18&r Blocos"
 	quest.7655E1C6C5E5469F.title: "&2Growth Accelerators de Prudentium"
-	quest.7658C1C663394E85.quest_desc: ["Existem muitos comandos úteis dentro do ATM. Aqui estão alguns:\\n\\n&e/sethome&r (nome da casa) | Permite que você defina uma casa para a qual pode se teletransportar usando /home (nome). Exemplo: /sethome fazenda - depois se teletransporte com /home fazenda.\\n\\n&e/spawn&r | Isso o teletransportará para o spawn do seu Mundo Superior.\\n\\n&e/rtp&r | 'Teletransporte Aleatório' o teletransportará para um local aleatório no mundo.\\n\\nNota: Estes comandos têm tempos de recarga e limites. Se você quiser alterá-los, pode editar o arquivo de configuração que pode ser encontrado aqui:\\n\\n - Para Singleplayer | &osaves/(nome do save)/serverconfig/ftbessentials.snbt&r\\n\\n - Para Servidores | &oworld/serverconfig/ftbessentials.snbt&r"]
+	quest.7658C1C663394E85.quest_desc: ["Existem muitos comandos úteis dentro do ATM. Aqui estão alguns:\\n\\n&e/sethome&r (nome da casa) | Permite que você defina uma home para a qual pode se teleportar de volta usando /home (nome). Exemplo: /sethome fazenda - depois se teletransporte com /home fazenda.\\n\\n&e/spawn&r | Isso o teletransportará para o spawn do seu Mundo Superior.\\n\\n&e/rtp&r | 'Teletransporte Aleatório' o teletransportará para um local aleatório no mundo.\\n\\nNota: Estes comandos têm tempos de recarga e limites. Se você quiser alterá-los, pode editar o arquivo de configuração que pode ser encontrado aqui:\\n\\n - Para Singleplayer | &osaves/(nome do save)/serverconfig/ftbessentials.snbt&r\\n\\n - Para Servidores | &oworld/serverconfig/ftbessentials.snbt&r"]
 	quest.765CD913CC3896B2.quest_desc: ["&lDragões de Fogo&r dos Estágios &l4&r e &l5&r são encontrados selados profundamente abaixo da superfície, protegidos dentro de suas &cCavernas&r. Só os mais tolos se atreveriam a descer até lá e enfrentá-los! \\n\\nAs &cCavernas de Dragão de Fogo&r são estruturas enormes, mas ainda assim fechadas. Isso significa que o &c&lDragão&r não pode simplesmente voar e fugir... mas você também não pode. \\nSe quiser enfrentar esses enormes &c&lDragões&r, vai precisar do melhor Equipamento, Encantamentos e Poções — especialmente aquelas que impedem que o &cFogo&r te mate! \\nSeus ataques causam ainda mais Dano, e seus &cAtaques Elementais&r se espalham e queimam mais do que nunca! Sem contar que eles têm a mesma &4Vida&r de um &3&lWarden&r e &7Pontos de Armadura&r equivalentes a uma armadura completa de &cNetherita&r! \\n\\nSe você matar uma &lDragão de Fogo Fêmea&r dos Estágios 4 ou 5 (e não usar Frascos nela), ela pode deixar cair um &cOvo&r. Esses &cOvos de Dragão&r são muito melhores que o &2&lOvo de Dragão&r &ddo Vanilla&r porque..."]
 	quest.765CD913CC3896B2.title: "&lEstágio 4-5 &cDragão de Fogo"
 	quest.76660075F254597E.quest_desc: ["O &#F5B758Melhoria Avançada&r adiciona &#EDE02F16 EU/t&r de uso máximo por melhoria."]
@@ -10313,7 +10333,7 @@
 	]
 	quest.7900A4836CC55428.quest_subtitle: "Muitos Montadores Moleculares e Provedores de Padrão em Um Canal"
 	quest.7900A4836CC55428.title: "Muitos Montadores em Um: A Matriz Montadora"
-	quest.790EC3EDC2DB1FB0.quest_desc: ["Como foi mencionado antes. Este mod adiciona uma tonelada de maneiras divertidas de gerar energia que exigem construções específicas."]
+	quest.790EC3EDC2DB1FB0.quest_desc: ["Como mencionado anteriormente, este mod adiciona um monte de maneiras divertidas de gerar energia que exigem construções específicas."]
 	quest.790EC3EDC2DB1FB0.title: "&fGeradores em Abundância"
 	quest.79110ACAAC8412EA.quest_subtitle: "Fabricação por Infusão"
 	quest.79110ACAAC8412EA.title: "&fAbelha de Tertium"
@@ -10676,7 +10696,7 @@
 	quest.7D279FC39DA5C630.title: "&cTrióxido de Enxofre&r em &7Ácido Fluorídrico"
 	quest.7D359283625C1869.quest_desc: ["&4&lCataclysm&r é um Mod de aventura que se concentra em adicionar novos Chefes! E tudo que vem deles e ao redor deles! \\n\\nVocê encontrará as Estruturas por todo o &2&lMundo Superior&r, &4&lO Nether&r e &5&lO End&r. \\n\\nDentro haverá novos Mobs, Minichefes e Chefes muito difíceis. Você pode matá-los todos para obter novas Armas, Armaduras e Itens!"]
 	quest.7D359283625C1869.title: "&4&lCataclysm"
-	quest.7D38BC3DB3406F51.quest_desc: ["Com nossa Picareta de Madeira, pedra não deve ser um problema para quebrar!\\n\\n&3Pedregulho&r desbloqueia a próxima parte da progressão, usando-o para criar uma Fornalha para derreter nossos minérios.\\n\\nVocê também vai querer atualizar sua picareta para pedra para minerar minérios melhores como o &bFerro&r!"]
+	quest.7D38BC3DB3406F51.quest_desc: ["Com nossa Picareta de Madeira, quebrar pedra não deve ser um problema!\\n\\nO &3Pedregulho&r desbloqueia a próxima parte da progressão, permitindo que você crie uma Fornalha para fundir nossos minérios.\\n\\nVocê também vai querer melhorar sua picareta para pedra para minerar minérios melhores como &bFerro&r!"]
 	quest.7D38BC3DB3406F51.title: "&fIdade da Pedra"
 	quest.7D40B80DBBC4E160.quest_desc: ["A Máquina de Laminação Manual será sua pequena máquina de criação para muitos materiais do railcraft! \\n\\nQuando você coloca a receita e ela pode fazer mais de 1, ela irá fabricar automaticamente enquanto você ainda estiver olhando para ela. Quando você sai da Máquina de Laminação enquanto ela está fabricando, ela abortará a fabricação e a colocará em seu inventário. \\n\\nVocê deve construir manualmente a última receita!"]
 	quest.7D43016926E77150.title: "&9Armadura de Imperium&r"

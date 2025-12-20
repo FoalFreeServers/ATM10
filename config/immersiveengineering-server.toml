@@ -91,7 +91,7 @@
 		#The maximum length of insulated_electrum wires
 		# Default: 16
 		# Range: > 0
-		maxLength = 32
+		maxLength = 16
 
 [machines]
 	#Output modifier for the energy created by the kinetic dynamo. This will be modified by the rotation modifier of the attached water- or windmill

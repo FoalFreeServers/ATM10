@@ -21,3 +21,11 @@
 	# Default: 100000000
 	# Range: > 1
 	RAY_RECEIVER_POWER_BUFFER = 100000000
+	#The power that the em railejector buffer has
+	# Default: 400000
+	# Range: > 1
+	RAIL_EJECTOR_POWER_BUFFER = 400000
+	#The power that the em railejector consumes each tick per sent item
+	# Default: 40
+	# Range: > 1
+	RAIL_EJECTOR_CONSUME = 40

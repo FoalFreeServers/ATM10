@@ -109,18 +109,18 @@
 	# Default: 19
 	# Range: 0 ~ 9223372036854775807
 	megaEnergyUsage = 19
-	# Default: 2
+	# Default: 0
 	# Range: > 1
-	eliteSpeed = 2
-	# Default: 5
+	eliteSpeed = 1
+	# Default: 0
 	# Range: > 1
-	ultraSpeed = 5
-	# Default: 8
+	ultraSpeed = 1
+	# Default: 0
 	# Range: > 1
-	megaSpeed = 8
-	# Default: 100
+	megaSpeed = 1
+	# Default: 0
 	# Range: > 1
-	creativeSpeed = 100
+	creativeSpeed = 1
 	eliteStackUpgradeIntegrated = false
 	ultraStackUpgradeIntegrated = true
 	megaStackUpgradeIntegrated = true
@@ -147,3 +147,26 @@
 	# Default: 100
 	# Range: > 1
 	creativeSpeed = 100
+
+[tieredInterfaces]
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	eliteEnergyUsage = 5
+	# Default: 9
+	# Range: 0 ~ 9223372036854775807
+	ultraEnergyUsage = 9
+	# Default: 17
+	# Range: 0 ~ 9223372036854775807
+	megaEnergyUsage = 17
+	# Default: 50
+	# Range: 1 ~ 9223372036854775807
+	eliteTransferQuotaMultiplier = 50
+	# Default: 100
+	# Range: 1 ~ 9223372036854775807
+	ultraTransferQuotaMultiplier = 100
+	# Default: 200
+	# Range: 1 ~ 9223372036854775807
+	megaTransferQuotaMultiplier = 200
+	# Default: 9223372036854775807
+	# Range: 1 ~ 9223372036854775807
+	creativeTransferQuotaMultiplier = 9223372036854775807

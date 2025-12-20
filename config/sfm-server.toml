@@ -13,6 +13,10 @@ timerTriggerMinimumIntervalInTicksWhenOnlyForgeEnergyIOStatementsPresent = 1
 # Default: 10
 # Range: > 0
 maxIfStatementsInTriggerBeforeSimulationIsntAllowed = 10
+#The max number of problems annotated on a disk item before truncation
+# Default: 10
+# Range: > 0
+maxDiskProblems = 10
 #What resource types should SFM not be allowed to move
 disallowedResourceTypesForTransfer = []
 #How to convert Enchanted Books to Experience Shards
