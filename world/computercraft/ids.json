@@ -1,7 +1,7 @@
 {
   "computer": 13,
-  "peripheral.inductionPort": 2,
-  "peripheral.turbineValve": 3,
+  "peripheral.inductionPort": 3,
+  "peripheral.turbineValve": 4,
   "peripheral.fissionReactorLogicAdapter": 2,
   "peripheral.fissionReactorPort": 2,
   "peripheral.monitor": 4,
